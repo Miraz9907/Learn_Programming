@@ -1,0 +1,3961 @@
+<resources xmlns:color="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">LearnProgramming</string>
+
+    <string-array name="topics_item">
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JAVASCRIPT</item>
+        <item>C Programming</item>
+        <item>JAVA</item>
+        <item>PYTHON</item>
+        <item>Database</item>
+        <item>PRACTICE PROBLEM</item>
+
+    </string-array>
+
+<!--    HTML start-->
+
+    <string name="title">HTML</string>
+
+    <string name="html">
+        HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content.
+
+    </string>
+
+    <string name="write_code">How to write HTML code </string>
+
+    <string name="text_editor">
+
+        Step 1: Open any Notepad (PC), VS code Windows 8 or later.\n
+        Step 1: Open TextEdit (Mac) Open Finder > Applications > TextEdit.
+        Step 2: Write Some HTML. Write or copy the following HTML code into Notepad\n
+        Step 3: Save the HTML Page. Save the file on your computer.\n
+        Step 4: View the HTML Page in Your Browser.
+    </string>
+
+    <string name="mainPageText">See all available rooms \u003E</string>
+    <string name="listPageText">\uFE64 See my current status</string>
+
+    <string name="document">Document</string>
+
+    <string name="html_document">
+        All HTML documents must start with a document type declaration: \uFE64!DOCTYPE html\u003E
+        The HTML document itself begins with \uFE64html\u003E and ends with \uFE64/html\u003E.
+        The visible part of the HTML document is between \uFE64body\u003E and \uFE64/body\u003E.
+    </string>
+
+    <string name="element">HTML Element</string>
+    <string name="html_element">
+        An HTML element is defined by a start tag, some content, and an end tag.\n
+        The HTML element is everything from the start tag to the end tag.
+        \uFE64tagname>Content goes here\uFE64/tagname>
+    </string>
+
+    <string name="heading">Heading</string>
+    <string name="html_heading">
+        HTML headings are titles or subtitles that you want to display on a webpage.\n
+        There are six heading in HTML. HTML headings are defined with the \uFE64h1> to \uFE64h6> tags.
+        \uFE64h1> defines the most important heading. \uFE64h6> defines the least important heading.\n\n\n
+
+        Example:\n
+        \uFE64h1>Heading 1\uFE64/h1>\n
+        \uFE64h2>Heading 2\uFE64/h2>\n
+        \uFE64h3>Heading 3\uFE64/h3>\n
+        \uFE64h4>Heading 4\uFE64/h4>\n
+        \uFE64h5>Heading 5\uFE64/h5>\n
+       \uFE64h6>Heading 6\uFE64/h6>\n
+    </string>
+
+    <string name="paragraph">HTML Paragraph</string>
+    <string name="html_paragraph">
+        A paragraph always starts on a new line, and is usually a block of text.\n
+        The HTML \uFE64p> element defines a paragraph.
+        A paragraph always starts on a new line, and browsers automatically add some\n white space (a margin) before and after a paragraph.\n\n\n
+        Example:\n
+         \uFE64p>This is a paragraph. \uFE64/p>
+    \uFE64p>This is another paragraph. \uFE64/p>
+    </string>
+    
+    <string name="formatting">HTML Formatting</string>
+    <string name="html_formatting">
+        HTML contains several elements for defining text with a special meaning.\n
+        Formatting elements were designed to display special types of text.\n
+
+        \uFE64b> - Bold text\n
+        \uFE64strong> - Important text\n
+        \uFE64i> - Italic text\n
+        \uFE64em> - Emphasized text\n
+        \uFE64mark> - Marked text\n
+        \uFE64small> - Smaller text\n
+        \uFE64del> - Deleted text\n
+        \uFE64ins> - Inserted text\n
+        \uFE64sub> - Subscript text\n
+        \uFE64sup> - Superscript text\n
+
+        1.The HTML \uFE64b> element defines bold text, without any extra importance.\n
+        Example:\n
+        \uFE64b>This text is bold\uFE64/b>\n\n
+
+        2.The HTML \uFE64strong> element defines text with strong importance. And the inside is typically displayed in bold.\n\n
+        Example:\n
+        \uFE64strong>This text is important!\uFE64/strong>\n\n
+
+        3.The HTML \uFE64i> element defines the content inside is typically displayed in italic.\n
+        Example:\n
+        \uFE64i>This text is italic\uFE64/i>\n\n
+
+        4.The HTML \uFE64small> element defines smaller text.\n
+        Example:\n
+        \uFE64small>This is some smaller text.\uFE64/small>\n\n
+
+        5.The HTML \uFE64mark> element defines text that should be marked or highlighted\n
+        Example:\n
+        \uFE64p>Oh shit! I forget to buy \uFE64mark>milk\uFE64/mark>for my child.\uFE64/p>\n\n
+
+        6. The HTML \uFE64sub> element defines subscript text.\n
+        Example:\n
+        \uFE64p>This is \uFE64sub>subscripted\uFE64/sub> text.\uFE64/p>\n\n
+
+        7.The HTML \uFE64sup> element defines superscript text.\n
+        Example:\n
+        \uFE64p>This is \uFE64sup>superscripted\uFE64/sup> text.\uFE64/p>
+
+    </string>
+
+    <string name="link">HTML Links</string>
+    <string name="html_link">
+        Links are found in nearly all web pages. Links allow users to click their way from page to page.\n
+        HTML links are hyperlinks. \nYou can click on a link and jump to another document.\n
+        When you move the mouse over a link, the mouse arrow will turn into a little hand.\n\n
+        The most important attribute of the \uFE64a> element is the href attribute,\n which indicates the links destination.\n
+        The link text is the part that will be visible to the reader.\n
+        Clicking on the link text, will send the reader to the specified URL address.\n\n
+        Example:\n
+        \uFE64a href="\"url"\">link text\uFE64/a>\n
+
+        \uFE64a href="https://www.facebook.com//", >Go to my Facebook account\uFE64/a>\n
+
+       Use target="_blank" to open the linked document in a new browser window or tab:\n
+        \uFE64a href="https://www.mirazhome.com/" target="_blank">Go to my home website!\uFE64/a>
+    </string>
+
+    <string name="image">HTML Image</string>
+    <string name="html_image">
+        Using Images in your web page can improve the design and the appearance of a web page.\n
+        We can use image in some ways and style the image using CSS. We will learn style in CSS lesson.\n
+
+        <b>Example:</b>\n
+         \uFE64img src="\"url.jpg"\">\n
+
+        \uFE64img src="\"my_image.jpg"\">\n\n
+        we can describe any image using an attribute that is -"\"alt"\"\n
+        Example:\n
+         \uFE64img src="\"nature.jpg"\" alt="the weather is so beautiful ">
+
+
+
+    </string>
+
+    <string name="table">HTML Table</string>
+    <string name="html_table">
+        HTML tables allow web developers to arrange data into rows and columns.\n
+        A HTML table make using some HTML tags.\n
+        Such as: table, td,tr,th etc.\n\n
+        Everything between \uFE64td> and \uFE64/td> are the content of the table cell.\n
+        And td stands for table data\n.
+        Example:\n
+        \uFE64table>\n
+            \uFE64tr>\n
+                \uFE64td>Name\uFE64/td>\n
+                \uFE64d>Email\uFE64/td>\n
+                \uFE64td>Address\uFE64/td>\n
+            \uFE64/tr>\n
+        \uFE64/table>\n
+
+        Each table row starts with a \uFE64tr> and end with a \uFE64/tr> tag.\ntr stands for table row.\n
+        Example:\n
+         \uFE64table>\n
+             \uFE64tr>\n
+                 \uFE64td>Name \uFE64/td>\n
+                 \uFE64td>Email \uFE64/td>\n
+                 \uFE64td>Address \uFE64/td>\n
+             \uFE64/tr>\n
+             \uFE64tr>\n
+                 \uFE64td>Miraz \uFE64/td>\n
+                 \uFE64td>miraz@ gmail.com\uFE64/td>\n
+                 \uFE64td>khilkhet \uFE64/td>\n
+             \uFE64/tr>\n
+        \uFE64/table>\n\n
+
+        th stands for table header\n
+        Example:\n
+       \uFE64table>\n
+        \uFE64tr>\n
+            \uFE64th>Name\uFE64/th>\n
+            \uFE64th>ID\uFE64/th>\n
+            \uFE64th>CGPA\uFE64/th>\n
+        \uFE64/tr>\n
+        \uFE64/table>\n\n
+
+
+
+    </string>
+    <string name="list">HTML List</string>
+    <string name="html_list">
+        HTML lists allow web developers to group a set of related items in lists.\n
+    </string>
+    <string name="unordered">Unordered List</string>
+    <string name="unordered_list">
+        An unordered list starts with the \uFE64ul> tag. Each list item starts with the \uFE64li> tag.
+        The list items will be marked with bullets (small black circles) by default.\n
+
+        Example:\n
+        \uFE64ul>\n
+            \uFE64li>Coffee\uFE64/li>\n
+            \uFE64li>Tea\uFE64/li>\n
+            \uFE64li>Milk\uFE64/li>\n
+        \uFE64/ul>\n
+
+    </string>
+
+    <string name="ordered">Ordered List</string>
+    <string name="ordered_list">
+        An ordered list starts with the \uFE64ol> tag. Each list item starts with the \uFE64li> tag.\n
+        The list items will be marked with numbers by default.\n\n
+
+        \uFE64ol>\n
+            \uFE64li>Coffee\uFE64/li>\n
+            \uFE64li>Tea\uFE64/li>\n
+            \uFE64li>Milk\uFE64/li>\n
+        \uFE64/ol>\n
+    </string>
+
+
+
+    <string name="form">HTML Form</string>
+    <string name="html_form">
+        An HTML form is used to collect user input. The user input is most often sent to a server for processing.\n
+        The HTML \uFE64form> element is used to create an HTML form for user input.\n
+        The \uFE64form> element is a container for different types of input elements, such as:\n
+        text fields,email,password checkboxes, radio buttons, submit buttons, etc.\n\n
+
+        Example:\n
+        \uFE64form>
+            \uFE64label for="\"fname"\">First name:\uFE64/label>\n
+            \uFE64input type="\"text"\" id="fname" name="fname">\n
+            \uFE64label for="\"lname"\">Last name:\uFE64/label>\n
+            \uFE64input type="\"text"\" id="lname" name="lname">\n
+            \uFE64input type="\"radio"\" id="html" name="fav_language" value="HTML">\n
+            \uFE64label for="\"html"\">HTML\uFE64/label>\n
+            \uFE64input type="\"checkbox"\" id="\"vehicle1"\" name="\"vehicle1"\" value="\"Bike"\">\n
+            \uFE64label for="\"vehicle1"\"> I have learn android\uFE64/label>\n
+
+        \uFE64/form>\n
+
+
+
+    </string>
+
+    <string name="update_status">It will update later in the next version of the system: </string>
+
+<!--    HTML end-->
+
+
+
+
+<!--    CSS start-->
+
+
+    <string name="css_title">CSS</string>
+    <string name="css">
+        CSS is the language we use to style an HTML document.\n
+        CSS describes how HTML elements should be displayed.\n
+        CSS stands for Cascading Style Sheets.\n
+        CSS describes how HTML elements are to be displayed on screen, paper, or in other media.\n
+        CSS saves a lot of work. It can control the layout of multiple web pages all at once.\n
+        External stylesheets are stored in CSS files.\n\n
+        CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.\n
+        <b>Example:</b>\n
+        body {\n
+        background-color: lightblue;\n
+        }\n
+        h1 {\n
+        color: white;\n
+        text-align: center;\n
+        }\n
+
+        p {\n
+        font-family: verdana;\n
+        font-size: 20px;\n
+        }\n
+    </string>
+    <string name="selector">CSS Selector</string>
+    <string name="css_selector">
+        CSS selectors are used to "\"find"\" (or select) the HTML elements you want to style.\n\n
+        We can divide CSS selectors into five categories:\n
+        1. Simple selectors (select elements based on name, id, class)\n
+        2. Combinator selectors (select elements based on a specific relationship between them)\n
+        3. Pseudo-class selectors (select elements based on a certain state)\n
+        4. Pseudo-elements selectors (select and style a part of an element)\n
+        5. Attribute selectors (select elements based on an attribute or attribute value)\n\n
+
+     <b>The CSS element Selector</b>\n
+
+
+        The element selector selects HTML elements based on the element name.\n
+        
+        Here, all \uFE64p> elements on the page will be center-aligned, with a red text color:\n
+        p {\n
+        text-align: center;\n
+        color: red;\n
+        }\n\n
+
+
+    
+    <b>id selector</b>\n
+
+        The id selector uses the id attribute of an HTML element to select a specific element.\n
+        The id of an element is unique within a page, so the id selector is used to select one unique element!\n
+        To select an element with a specific id, write a hash (#) character, followed by the id of the element.\n
+        <b>Example:</b>\n
+        The CSS rule below will be applied to the HTML element with id="\"para1"\":\n\n
+        #para1 {\n
+        text-align: center;\n
+        color: red;\n
+        }\n
+
+        <b>class selector</b>\n
+
+        The class selector selects HTML elements with a specific class attribute.\n
+        To select elements with a specific class, write a period (.) character, followed by the class name.\n\n
+        <b>Example:</b>\n
+        
+        In this example all HTML elements with class="center" will be red and center-aligned: \n\n
+        .center {\n
+        text-align: center;\n
+        color: red;\n
+        }\n
+
+    
+        <b>Universal Selector</b>\n
+
+        The universal selector (*) selects all HTML elements on the page.\n
+        Example:
+        The CSS rule below will affect every HTML element on the page: \n\n
+        * {\n
+        text-align: center;\n
+        color: blue;\n
+        }\n
+    </string>
+    
+    <string name="color">CSS Color</string>
+    <string name="css_color">
+        Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.\n
+        <b>CSS Background Color:</b>\n
+        We can set the background color for HTML elements:\n
+        Example:\n
+        \uFE64h1 style="background-color:DodgerBlue;">Hello World\uFE64/h1>\n\n
+
+        <b>CSS Text Color</b>\n
+        You can set the color of text:\n
+        Example:\n
+       \uFE64h1 style="color:red;">Hello World\uFE64/h1>\n
+        \uFE64p style="color:Blue;">this paragraph color is blue\uFE64/p>
+
+
+    </string>
+    <string name="background">CSS background</string>
+    <string name="css_background">
+        <b>CSS background-color</b>\n
+        The background-color property specifies the background color of an element.\n
+        Example:\n
+        The background color of a page is set like this:\n
+        body {\n
+        background-color: aqua;\n
+        }\n
+
+        So, the whole page background color will be change\n\n
+
+        <b>CSS background-image</b>\n
+        The background-image property specifies an image to use as the background of an element.\n
+        By default, the image is repeated so it covers the entire element.\n
+        Example:\n
+        background-image: url("image_url.jpg");\n
+        Set the background image for a page:\n
+
+        body {\n
+        background-image: url("miraz_img.jpg");\n
+        }\n
+    </string>
+
+    <string name="box">CSS box Model</string>
+    <string name="box_model">
+        In CSS, the term "box model" is used when talking about design and layout.\n
+        The CSS box model is essentially a box that wraps around every HTML element.\n It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:\n
+        Explanation of the different parts of css box model:\n
+        Content - The content of the box, where text and images appear\n
+        Padding - Clears an area around the content. The padding is transparent\n
+        Border - A border that goes around the padding and content\n
+        Margin - Clears an area outside the border. The margin is transparent\n
+        The box model allows us to add a border around elements, and to define space between elements.\n\n
+
+        Example:\n\n
+        div {\n
+        width: 300px;\n
+        border: 15px solid green;\n
+        padding: 50px;\n
+        margin: 20px;\n
+        }\n
+
+        we can search on google to learn more about margin, padding.\n\n
+    </string>
+
+    <string name="table_css">CSS Table</string>
+    <string name="css_table">
+        We can design our html table using css.\n
+        To specify table borders in CSS, use the border property.\n
+        The example below specifies a black border for  \uFE64table>,  \uFE64th>, and  \uFE64td> elements:\n
+        Example:\n
+        we can set a border for a table\n
+        table, th, td {\n
+        border: 1px solid black;\n
+        }\n\n
+
+        We can set width 100% to show the table in full width in your screen.
+        Example:\n
+        table {\n
+        width: 100%;\n
+        }\n\n
+
+        <b>Collapse Table Borders</b>\n
+        The border-collapse property sets whether the table borders should be collapsed into a single border:\n
+        Example:\n
+        table {\n
+        border-collapse: collapse;\n
+        }\n
+    </string>
+
+    <string name="position">CSS Position</string>
+    <string name="css_position">
+        The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).\n
+        There are five different position values:\n
+        static\n
+        relative\n
+        fixed\n
+        absolute\n
+        sticky\n
+        Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.\n\n
+
+        <b>position static</b>\n
+        HTML elements are positioned static by default.\n
+        An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:\n\n
+        Example:\n
+
+        div {\n
+        position: static;\n
+        border: 3px solid #73AD21;\n
+        }\n
+
+        <b>position relative</b>\n
+        An element with position: relative; is positioned relative to its normal position.\n
+        Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.\n
+        Other content will not be adjusted to fit into any gap left by the element.\n\n
+        <b>Example:</b>\n
+        div {\n
+        position: relative;\n
+        left: 30px;\n
+        border: 3px solid #73AD21;\n
+        }
+
+        <b>position fixed</b>\n
+        An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.\n The top, right, bottom, and left properties are used to position the element.\n
+        A fixed element does not leave a gap in the page where it would normally have been located.\n\n
+        <b>Example:</b>\n
+        div {\n
+        position: fixed;\n
+        bottom: 0;\n
+        right: 0;\n
+        width: 300px;\n
+        border: 3px solid #73AD21;\n
+        }\n
+
+
+        <b>position absolute</b>
+        An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).\n
+        However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.\n
+        <b>ExampleL</b>\n
+        div {\n
+        position: relative;\n
+        width: 400px;\n
+        height: 200px;\n
+        border: 3px solid #73AD21;\n
+        }\n
+
+        div {\n
+        position: absolute;\n
+        top: 80px;\n
+        right: 0;\n
+        width: 200px;\n
+        height: 100px;\n
+        border: 3px solid #73AD21;\n
+        }\n\n
+
+        <b>position sticky</b>\n
+        An element with position: sticky; is positioned based on the user scroll position.\n
+        A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).\n\n
+        <b>Example:</b>\n
+
+        div {\n
+        position: -webkit-sticky; \n
+        position: sticky;\n
+        top: 0;\n
+        background-color: green;\n
+        border: 2px solid #4CAF50;\n
+        }\n
+
+    </string>
+
+    <string name="overflow">CSS Overflow</string>
+    <string name="css_overflow">
+        The CSS overflow property controls what happens to content that is too big to fit into an area.\n
+        The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.\n
+        The overflow property has the following values:\n
+        1.visible - Default. The overflow is not clipped. The content renders outside the element box\n
+        2.hidden - The overflow is clipped, and the rest of the content will be invisible\n
+        3.scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content\n
+        4.auto - Similar to scroll, but it adds scrollbars only when necessary\n\n
+        <b>overflow visible</b>\n
+        By default, the overflow is visible, meaning that it is not clipped and it renders outside the element box.\n
+        <b>Example:</b>\n
+        div {\n
+        width: 200px;\n
+        height: 50px;\n
+        background-color: #eee;\n
+        overflow: visible;\n
+        }\n\n
+
+        <b>overflow hidden</b>\n
+        With the hidden value, the overflow is clipped, and the rest of the content is hidden\n
+        <b>Example:</b>\n
+        div {\n
+        overflow: hidden;\n
+        }\n\n
+
+        <b>overflow: scroll</b>\n
+        Setting the value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a scrollbar both horizontally and vertically (even if you do not need it):\n
+        <b>Example:</b>\n
+        div {\n
+        overflow: scroll;\n
+        }\n\n
+
+       <b>overflow: auto</b> \n
+        The auto value is similar to scroll, but it adds scrollbars only when necessary:\n
+        <b>Example:</b>\n
+        div {\n
+        overflow: auto;\n
+        }\n\n
+    </string>
+
+    <string name="css_float">CSS float</string>
+    <string name="float_css">
+        The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.\n
+        The float property can have one of the following values:\n
+        1.left - The element floats to the left of its container\n
+        2.right - The element floats to the right of its container\n
+        3.none - The element does not float (will be displayed just where it occurs in the text). This is default\n
+        4.inherit - The element inherits the float value of its parent\n
+        5.In its simplest use, the float property can be used to wrap text around images.\n
+
+        <b>float: right</b>\n
+        float:right; will set element in the right side of the page.\n
+        <b>Example:</b>\n
+        img {\n
+        float: right;\n
+        }\n
+
+        <b>float: left</b>\n
+        The following example specifies that an image should float to the left in a text:\n
+        <b>Example:</b>\n
+        img {\n
+        float: left;\n
+        }\n
+
+    </string>
+    <string name="navigation">Navigation bars</string>
+    <string name="navigation_bars">
+        <b>Navigation Bar = List of Links</b>\n
+        A navigation bar needs standard HTML as a base.\n
+        In our examples we will build the navigation bar from a standard HTML list.\n
+        A navigation bar is basically a list of links, so using the \uFE64ul> and \uFE64li> elements makes perfect sense:\n
+        <b>Example:</b>\n
+        \uFE64ul>\n
+            \uFE64li>\uFE64a href="\"default.asp"\">Home\uFE64/a>\uFE64/li>\n
+            \uFE64li>\uFE64a href="\"news.asp"\">News\uFE64/a>\uFE64/li>\n
+            \uFE64li>\uFE64a href="\"contact.asp"\">Contact\uFE64/a>\uFE64/li>\n
+            \uFE64li>\uFE64a href="\"about.asp"\">About\uFE64/a>\uFE64/li>\n
+        \uFE64/ul>\n\n
+
+        We can remove the bullets and the margins and padding from the list using following:\n
+        <b>Example:</b>\n
+        ul {\n
+        list-style-type: none;\n
+        margin: 0;\n
+        padding: 0;\n
+        }\n
+        list-style-type: none; - Removes the bullets. A navigation bar does not need list markers\n\n
+
+        <b>Vertical navbar</b>\n
+        We can set display:block to show a vertical navbar\n
+        <b>Example:</b>\n
+        ul {\n
+        list-style-type: none;\n
+        margin: 0;\n
+        padding: 0;\n
+        width: 60px;\n
+        }\n
+
+        li a {\n
+        display: block;\n
+        }\n\n
+
+        <b>horizontal navbar</b>\n
+        We can set display:inline to show a horizontal navbar\n
+        <b>Example:</b>\n
+        li {\n
+        display: inline;\n
+        }\n\n
+
+        Another way of creating a horizontal navigation bar is to float the \uFE64li> elements, and specify a layout for the navigation links:\n
+        <b>Example:</b>\n
+        li {\n
+        float: left;\n
+        }\n
+
+        a {\n
+        display: block;\n
+        padding: 8px;\n
+        background-color: #dddddd;\n
+        }\n\n
+
+    </string>
+    <string name="flex">Flexbox Layout</string>
+    <string name="flex_box">
+        There were four layout modes of flex layout:\n
+        1.Block, for sections in a webpage\n
+        2.Inline, for text\n
+        3.Table, for two-dimensional table data\n
+        4.Positioned, for explicit position of an element\n\n
+        The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.\n
+        we have set display value flex to show all items in flex layout\n
+        <b>Example:</b>\n
+        \uFE64div class="\"flex-container"\">\n
+            \uFE64div>Miraz\uFE64/div>\n
+            \uFE64div>Arman\uFE64/div>\n
+            \uFE64div>Nabil\uFE64/div>\n
+            \uFE64div>Rafi\uFE64/div>\n
+        \uFE64/div>\n\n
+
+        <b>flex-wrap Property</b>\n
+        The flex-wrap property specifies whether the flex items should wrap or not.\n
+        The examples below have 12 flex items, to better demonstrate the flex-wrap property.\n
+
+        The wrap value specifies that the flex items will wrap if necessary:\n
+        <b>Example:</b>\n
+        .flex-container {\n
+        display: flex;\n
+        flex-wrap: wrap;\n
+        }\n\n
+
+
+        <b>The flex-flow Property</b>\n
+        The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.\n
+        <b>Example:</b>\n
+        .flex-container {\n
+        display: flex;\n
+        flex-flow: row wrap;\n
+        }\n\n
+
+        <b>justify-content Property</b>\n
+        <b>justify-content:center</b>
+        The justify-content property is used to align the flex items:\n
+        <b>Example:</b>\n
+        The center value aligns the flex items at the center of the container:\n
+        .flex-container {\n
+        display: flex;\n
+        justify-content: center;\n
+        }\n\n
+
+        <b>justify-content:flex-start</b>\n
+        The flex-start value aligns the flex items at the beginning of the container (this is default):\n
+        <b>Example:</b>\n
+
+        .flex-container {\n
+        display: flex;\n
+        justify-content: flex-start;\n
+        }\n
+
+        <b>justify-content:flex-end</b>\n
+        The flex-end value aligns the flex items at the end of the container:\n
+        <b>Example:</b>\n
+        .flex-container {\n
+        display: flex;\n
+        justify-content: flex-end;\n
+        }\n
+
+    </string>
+
+
+<!--    CSS end-->
+
+
+
+<!--    javascript start-->
+
+    <string name="javascript_title">JAVASCRIPT</string>
+    <string name="about_javascript">
+        JavaScript is the world most popular programming language.\n
+        JavaScript is the programming language of the Web.\n
+        JavaScript is easy to learn.\n
+        Using this app you can learn the basic of javascript. When we will update our app then you will learn advance of javascript.\n
+
+    </string>
+    <string name="variable">JS Variable</string>
+    <string name="js_variable">
+        There are 3 ways to declare a JavaScript variable:\n In this chapter we will learn every way to declare variable in javascript.\n
+        1.Using var\n
+        2.Using let\n
+        3.Using const\n
+        In this chapter we will learn every way to declare variable in javascript.\n\n
+        Variables are containers for storing data (values).\n
+        In this example, x, y, and z, are variables, declared with the var keyword:\n
+        <b>Example:</b>\n
+        var x = 4;\n
+        var y = 3;\n
+        var z = x + y;\n
+        To better understanding From the above example you can say that:\n
+        x stores the value 4\n
+        y stores the value 3\n
+        z stores the value 7\n
+
+        <b>JS Data Types</b>\n
+        In programming, text values are called text strings.\n
+        JavaScript can handle many types of data, but for now, just think of numbers and strings.\n
+        Strings are written inside double or single quotes. Numbers are written without quotes.\n
+        If you put a number in quotes, it will be treated as a text string.\n
+        <b>Example:</b>\n
+        var pi = 3.14;\n
+        var name = "\"Miraz"\";\n
+        var answer = "\"No! I am Arman"\";\n\n
+
+        <b>Creating JS variable</b>\n
+        Creating a variable in JavaScript is called "declaring" a variable.\n
+        We can declare a JavaScript variable with the var keyword:\n
+        <b>Example:</b>\n
+        var carName1, carName2;\n
+        To assign a value to the variable, use the equal sign:\n
+        carName1 = "\"BMW"\";\n
+        carName2 = "\"VOLVO"\";\n
+
+        You can also assign a value to the variable when you declare it:\n
+        <b>Example</b>\n
+        var carName1 = "\"BMW"\";\n
+        var carName2 = "\"VOLVO"\";\n
+
+
+    </string>
+    <string name="let">JS Let</string>
+    <string name="js_let">
+        The let keyword was introduced in ES6 (2015).\n
+        Variables defined with let cannot be Redeclared.\n
+        Variables defined with let must be Declared before use.\n
+        Variables defined with let have Block Scope.\n\n
+
+        <b>Cannot be Redeclared</b>\n
+        Variables defined with let cannot be redeclared.\n
+        You cannot accidentally redeclare a variable.\n
+        With let you can not do this:\n
+        <b>Example</b>\n
+        let x = "\"Miraz"\";\n
+        let x = 7;\n
+        In the above example is wrong. because x has been already declared.\n
+        But with var keyword we can:\n
+        <b>Example:</b>\n
+        var x = "\"Miraz"\";\n
+        var x = 7;\n
+        This program will work properly. and it will show as output:7\n\n
+
+    </string>
+
+    <string name="const_variable">JS const</string>
+    <string name="js_const">
+        The const keyword was introduced in ES6 (2015).\n
+        Variables defined with const cannot be Redeclared.\n
+        Variables defined with const cannot be Reassigned.\n
+        Variables defined with const have Block Scope.\n
+
+        <b>It Cannot be Reassigned</b>\n
+        <b>Example</b>\n
+        const PI = 3.141592653589793;\n
+        PI = 3.14;      // This will give an error\n
+        PI = PI + 10;   // This will also give an error\n\n
+
+        JavaScript const variables must be assigned a value when they are declared:\n
+        like:
+        \u00A0const PI = 3.14159265359;\n // This is correct way\n
+
+        The incorrect way like:\n
+        const PI;\n
+        PI = 3.14159265359;\n
+
+        <b>Constant Objects and Arrays:</b>\n
+        The keyword const is a little misleading.\n
+        It does not define a constant value. It defines a constant reference to a value.\n
+        Because of this you can NOT:\n
+        Reassign a constant value\n
+        Reassign a constant array\n
+        Reassign a constant object\n
+        But you CAN:\n
+        Change the elements of constant array\n
+        Change the properties of constant object\n\n
+
+        <b>Constant Arrays:</b>\n
+        We can change the elements of a constant array:\n\n
+        // You can create a constant array:\n
+        const cars = ["Saab", "Volvo", "BMW"];\n\n
+        // You can change an element:\n
+        cars[0] = "Toyota";\n\n
+        // You can add an element:\n
+        cars.push("Audi");\n\n
+
+    </string>
+    <string name="operators">JS Operators</string>\n
+    <string name="js_operators">
+        Assign values to variables and add them together:\n
+        let x = 5;         // assign the value 5 to x\n
+        let y = 2;         // assign the value 2 to y\n
+        let z = x + y;     // assign the value 7 to z (5 + 2)\n
+
+        <b>Assignment:</b>\n
+        The assignment operator (=) assigns a value to a variable.\n
+        <b>Example:</b>\n
+        let x = 10;\n\n
+
+        <b>Adding:</b>\n
+        The addition operator (+) adds numbers:\n
+        <b>Example:</b>\n
+        let x = 5;\n
+        let y = 2;\n
+        let z = x + y;\n\n
+
+        <b>Subtraction:</b>\n
+        The subtraction operator (-) subtract numbers:\n
+        <b>Example:</b>\n
+        let x = 5;\n
+        let y = 2;\n
+        let z = x - y;\n\n
+
+        <b>Multiplying:</b>\n
+        The multiplication operator (*) multiplies numbers.\n
+        <b>Example:</b>\n
+        let x = 5;\n
+        let y = 2;\n
+        let z = x * y;\n\n
+        <b>Division:</b>\n
+        The division operator (/) divide numbers.\n
+        <b>Example:</b>\n
+        let x = 5;\n
+        let y = 2;\n
+        let z = x / y;\n\n
+
+        <b>Remainder</b>\n
+        The modulus operator (%) returns the division remainder.\n
+        <b>Example</b>\n
+        let x = 5;\n
+        let y = 2;\n
+        let z = x % y;\n\n
+
+        <b>Incrementing</b>\n
+        The increment operator (++) increments numbers.\n
+        <b>Example</b>
+        let x = 5;\n
+        x++;\n
+        let z = x;\n\n
+
+        <b>Decrementing</b>\n
+        The decrement operator (--) decrements numbers.\n
+        Example\n
+        let x = 5;\n
+        x--;\n
+        let z = x;\n\n
+
+        <b>Exponentiation</b>\n
+        The exponentiation operator (**) raises the first operand to the power of the second operand.\n
+        <b>Example:</b>
+        let x = 5;\n
+        let z = x ** 2; \n\n
+    </string>
+    <string name="data_type">Data Types</string>
+    <string name="js_data_type">
+        JavaScript variables can hold different data types: numbers, strings, objects and more:\n
+        <b>Example:</b>\n
+        let length = 7; // Number\n
+        let Name = "\"Miraz"\"; // String\n
+        let x = {firstName:"\"Mirazur"\", lastName:"\"Rahman"\"};// Object\n
+
+        In programming, data types is an important concept \n
+        To be able to operate on variables, it is important to know something about the type.\n
+        Without data types, a computer cannot safely solve this:\n\n
+
+
+        When adding a number and a string, JavaScript will treat the number as a string.\n
+        <b>Example:</b>\n
+        let x = 16 + "\"Volvo"\";\n\n
+
+        JavaScript evaluates expressions from left to right. Different sequences can produce different results:\n
+        <b>Example:</b>\n
+        let x = 16 + 4 + "\"Volvo"\";\n
+        //Result:20Volvo\n
+        In this example, JavaScript treats 16 and 4 as numbers, until it reaches "\"Volvo"\".\n\n
+
+
+        Again\n
+        let x = "\"Volvo"\" + 16 + 4;\n
+        //Result:Volvo164\n\
+        In this example, since the first operand is a string, all operands are treated as strings.\n\n
+
+        <b>JavaScript Strings:</b>\n
+        A string (or a text string) is a series of characters like "Jhon De".\n
+        Strings are written with quotes. You can use single or double quotes:\n
+        But in android single quotes may face a problem, so we will use double quotes.\n\n
+        <b>Example:</b>\n
+        let firstName = "\"Mirazur"\";\n
+        let lastName = "\"Rahman"\";\n\n
+        <b>You will learn more about strings later </b>\n\n
+
+        <b>JavaScript Numbers:</b>\n
+        JavaScript has only one type of numbers.\n
+        Numbers can be written with, or without decimals:
+        <b>Example:</b>\n
+        let a = 50.90;\n
+        let b = 7;\n\n
+
+        <b>JavaScript Booleans:</b>\n
+        Booleans can only have two values: true or false.\n
+        Booleans are often used in conditional testing.\n
+
+        <b>Example:</b>\n
+        let x = 7;\n
+        let y = 5;\n
+        let z = 7;\n
+        (x == z) // Returns true\n
+        (x == y) // Returns false\n
+        We will learn more about conditional testing later\n\n
+
+        <b>JavaScript Arrays:</b>\n
+        JavaScript arrays are written with square brackets.\n
+        Array items are separated by commas.\n
+        The following code declares (creates) an array called cars, containing three items (car names):\n
+        <b>Example:</b>\n
+        const name = ["\"Miraz"\", "\"Arman"\", "\"Nabil"\", "\"Rafi"\"];\n
+        <b>NOTE:</b>Array indexes are zero-based, which means the first item is [0], second is [1], and so on.\n\n
+        We will learn more about Javascript array later in a advance version\n\n
+
+        <b>JavaScript Objects:</b>\n
+        JavaScript objects are written with curly braces {}.\n
+        Object properties are written as name:value pairs, separated by commas.\n
+        <b>Example:</b>\n
+        const person = {firstName:"\"John"\", lastName:"\"Doe"\", age:50, eyeColor:"\"blue"\"};\n
+        We will learn more about objects later in a advance version\n\n
+
+    </string>
+    <string name="condition">Conditional Statement</string>
+    <string name="conditional_statement">
+        Conditional statements are used to perform different actions based on different conditions.\n
+        <b>Conditional Statements</b>\n
+        Very often when you write code, you want to perform different actions for different decisions.\n
+        You can use conditional statements in your code to do this.\n
+        In JavaScript we have the following conditional statements:\n\n
+        1. Use if to specify a block of code to be executed, if a specified condition is true\n
+        2. Use else to specify a block of code to be executed, if the same condition is false\n
+        3. Use else if to specify a new condition to test, if the first condition is false\n
+        4. Use switch to specify many alternative blocks of code to be executed\n\n
+
+        <b>if Statement</b>\n
+        Use the if statement to specify a block of JavaScript code to be executed if a condition is true.\n
+        <b>Syntax:</b>\n
+        if (condition) {\n
+        //  block of code to be executed if the condition is true\n
+        }\n
+        <b>NOTE:</b> if is in lowercase letters. Uppercase letters (If or IF) will generate a JavaScript error.\n
+        <b>Example:</b>\n
+        <b>Condition: </b> Make a "Good day" greeting if the hour is less than 18:00:\n\n
+        if (hour \uFE64 18) {\n
+        greeting = "\"Good day"\";\n
+        }\n
+
+        The result of greeting will be: Good day\n\n
+        <b>else Statement:</b>\n
+        Use the else statement to specify a block of code to be executed if the condition is false.\n
+        <b>Syntax:</b>\n
+        if (condition) {\n
+        //  block of code to be executed if the condition is true\n
+        } else {\n
+        //  block of code to be executed if the condition is false\n
+        }\n\n
+
+        <b>Example:</b>\n
+        If the hour is less than 18, create a "Good day" greeting, otherwise "Good evening":\n\n
+
+        if (hour \uFE64 18) {\n
+        greeting = "\"Good day"\";\n
+        } else {\n
+        greeting = "Good evening";\n
+        }\n
+        The result of greeting will be: Good day\n\n
+        <b>else if Statement</b>\n
+        Use the else if statement to specify a new condition if the first condition is false.\n\n
+        <b>Syntax</b>\n
+        if (condition1) {\n
+        //  block of code to be executed if condition1 is true\n
+        } else if (condition2) {\n
+        //  block of code to be executed if the condition1 is false and condition2 is true\n
+        } else {\n
+        //  block of code to be executed if the condition1 is false and condition2 is false\n
+        }\n\n
+
+        <b>Example:</b>\n
+        If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "\"Good evening"\":\n
+        if (time \uFE64 10) {\n
+        greeting = "Good morning";\n
+        } else if (time \uFE64 20) {\n
+        greeting = "Good day";\n
+        } else {\n
+        greeting = "Good evening";\n
+        }\n\n
+
+        We will learn more about condition statement in update version\n
+
+    </string>
+
+    <string name="loop">JS Loop</string>
+    <string name="js_loop">
+        Loops can execute a block of code a number of times.\n
+        <b>Different Kinds of Loops</b>\n
+        JavaScript supports different kinds of loops:\n
+        1. for - loops through a block of code a number of times\n
+        2. for/in - loops through the properties of an object\n
+        3. for/of - loops through the values of an iterable object\n
+        4. while - loops through a block of code while a specified condition is true\n
+        5. do/while - also loops through a block of code while a specified condition is true\n
+
+       <b>For Loop</b> \n
+        The for loop has the following syntax:\n
+        for (statement 1; statement 2; statement 3) {\n
+        // code block to be executed\n
+        }\n
+        Statement 1 is executed (one time) before the execution of the code block.\n
+        Statement 2 defines the condition for executing the code block.\n
+        Statement 3 is executed (every time) after the code block has been executed.\n
+        <b>Example</b>\n
+        for (let i = 0; i \uFE64 5; i++) {\n
+        text += "The number is " + i + "\"\uFE64br>"\";\n
+        }\n\n
+
+        From the example above:\n
+        Statement 1 sets a variable before the loop starts (let i = 0).\n
+        Statement 2 defines the condition for the loop to run (i must be less than 5).\n
+        Statement 3 increases a value (i++) each time the code block in the loop has been executed.\n\n
+
+        We can set our loop limit by user\n
+        for (let i = 0; i \uFE64 n; i++) {\n
+        text += "The number is " + i + "\"\uFE64br>"\";\n
+        }\n\n
+        here, we can set any integer value for n. \n
+
+        <b>For In Loop</b>\n
+        The JavaScript for in statement loops through the properties of an Object:\n
+
+        <b>Syntax</b>\n
+        for (key in object) {\n
+        // code block to be executed\n
+        }\n
+        <b>Example:</b>\n
+        const person = {fname:"John", lname:"Doe", age:25};\n
+        let text = :"\""\";\n
+        for (let x in person) {\n
+        text += person[x];\n
+        }\n\n
+        From the above example:\n
+        The for in loop iterates over a person object\n
+        Each iteration returns a key (x)\n
+        The key is used to access the value of the key\n
+        The value of the key is person[x]\n\n
+
+        <b>While Loop</b>\n
+        The while loop loops through a block of code as long as a specified condition is true.\n
+        <b>Syntax</b>\n
+        while (condition) {\n
+        // code block to be executed\n
+        }\n
+        <b>Example</b>\n
+        In the following example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10:\n
+        Example\n
+        while (i \uFE64 10) {\n
+        text += "The number is " + i;\n
+        i++;\n
+        }\n\n
+        <b>NOTE: </b>If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.\n\n
+
+
+        <b>Do While Loop</b>\n
+        The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.\n
+        <b>Syntax</b>\n
+        do {\n
+        // code block to be executed\n
+        }\n
+        while (condition);\n
+        <b>Example</b>\n
+        The example below uses a do while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:\n
+        <b>Example</b>\n
+        do {\n
+        text += "The number is " + i;\n
+        i++;\n
+        }\n
+        while (i \uFE64  10);\n
+        <b>NOTE:</b>Do not forget to increase the variable used in the condition, otherwise the loop will never end!\n\n
+
+    </string>
+
+    <string name="array">JS Array</string>
+    <string name="js_array">
+        An array is a special variable, which can hold more than one value:\n
+        var names = ["\"Miraz"\", "\"Arman"\", "\"Nabil"\", "\"Rafi"\"];\n\n
+        An array can hold many values under a single name, and we can access the values by referring to an index number.\n
+
+        <b>Creating an Array</b>\n
+        Using an array literal is the easiest way to create a JavaScript Array.\n
+        <b>Syntax:</b>\n
+        const array_name = [item1, item2,item3, ];\n
+        It is a common practice to declare arrays with the const keyword.\n\n
+        <b>Arrays are Not Constants</b>\n
+        The keyword const is a little misleading.\n
+        It does NOT define a constant array. It defines a constant reference to an array.\n
+        Because of this, we can still change the elements of a constant array.\n
+        we can change the elements of a constant array:\n\n
+        // we can create a constant array:\n
+        const names = ["\"Miraz"\", "\"Rafi"\", "\"Nabil"\"];\n
+        // we can change an element:\n
+        names[0] = "\"Arman"\";\n
+        // You can add an element:\n
+        names.push("Audi");\n\n
+
+        we can also create an array, and then provide the elements:\n
+        <b>Example:</b>\n
+        const names = [];\n
+        names[0]= "Arman";\n
+        names[1]= "Nabil";\n
+        names[2]= "Rafi";\n
+        names[2]= "Miraz";\n\n
+
+        <b>JavaScript Keyword "\new\"</b>\n
+        <b>Example:</b>\n
+        const carNames = new Array("\"Saab"\", "\"Volvo"\", "\"BMW"\");\n
+        <b>Note:</b> Array indexes start with 0.\n
+        [0] is the first element. [1] is the second element.\n
+
+    </string>
+    <string name="function">JS Function</string>
+    <string name="js_function">
+        A JavaScript function is a block of code designed to perform a particular task.\n
+        A function is executed when "something" invokes it (calls it).\n
+
+        <b>JavaScript Function Syntax</b>\n
+        A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().\n
+        Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).\n
+        The parentheses may include parameter names separated by commas:\n
+        (parameter1, parameter2,or more parameter)\n
+        The code to be executed, by the function, is placed inside curly brackets: {}\n
+        <b>Example:</b>\n
+        function name(parameter1, parameter2, parameter3) {\n
+        // code to be executed\n
+        }\n\n
+
+        Function parameters are listed inside the parentheses () in the function definition.\n
+        Function arguments are the values received by the function when it is invoked.\n
+        Inside the function, the arguments (the parameters) behave as local variables.\n
+
+        <b>Function Invocation</b>\n
+        The code inside the function will execute when "something" invokes (calls) the function:\n
+        When an event occurs (when a user clicks a button)\n
+        When it is invoked (called) from JavaScript code\n
+        Automatically (self invoked)\n
+        You will learn a lot more about function invocation later in the advance level.\n\n
+
+        <b>Function Return</b>\n
+        When JavaScript reaches a return statement, the function will stop executing.\n
+        If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.\n
+        Functions often compute a return value. The return value is "returned" back to the "caller":\n\n
+        <b>Example:</b>\n
+        let x = myFunctionDemo(4, 3);\n
+        // Function is called, return value will end up in x\n
+        function myFunctionDemo(a, b) {\n
+        return a * b;\n
+        // Function returns the product of a and b\n
+        }\n\n
+        The result in x will be:\n
+        12\n\n
+
+        We will learn more about functions in new version of our app.\n\n
+
+    </string>
+
+    <!--    javascript end-->
+
+
+
+
+<!--    C Programming start-->
+
+    <string name="c_title">C Programming</string>
+    <string name="c_programming">
+        C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:\n
+        1. Easy to learn.\n
+        2. Structured language.\n
+        3. It produces efficient programs.\n
+        4. It can handle low-level activities.\n
+        5. It can be compiled on a variety of computer platforms.\n
+
+    </string>
+
+    <string name="c_structure"> Structure </string>
+    <string name="structure">
+        A C program basically consists of the following parts −\n
+        1. Preprocessor Commands\n
+        2. Functions\n
+        3. Variables\n
+        4. Statements &amp; Expressions\n
+        5. Comments\n
+        Let us look at a simple code that would print the words "\"Hello World"\" −\n
+        <b>Example</b>\n
+        #include \uFE64stdio.h>\n
+        int main() {\n
+        /* my first program in C */\n
+        \u00A0\u00A0\u00A0\u00A0 printf("\"Hello, World! "\");\n
+        \u00A0\u00A0\u00A0\u00A0 return 0;\n
+        }\n\n
+
+        <b>Explain</b>\n
+        Let us take a look at the various parts of the above program.\n
+        1. The first line of the program #include \uFE64stdio.h> is a preprocessor command, which tells a C compiler to include stdio.h file before going to actual compilation.\n
+        2. The next line int main() is the main function where the program execution begins.\n
+        3. The next line /*  */ will be ignored by the compiler and it has been put to add additional comments in the program. So such lines are called comments in the program.\n
+        4. The next line printf() is another function available in C which causes the message "\"Hello, World!"\" to be displayed on the screen.\n
+        5. The next line return 0; terminates the main() function and returns the value 0.\n\n
+
+        <b>Compile and Execute C Program</b>\n\n
+        Let us see how to save the source code in a file, and how to compile and run it. Following are the simple steps.\n
+        1. Open a text editor and add the above-mentioned code.\n
+        2. Save the file as hello.c\n
+        3. Open a command prompt and go to the directory where you have saved the file.\n
+        4. Type gcc hello.c and press enter to compile your code.\n
+        5. If there are no errors in your code, the command prompt will take you to the next line and would generate a.out executable file.\n
+        6. Now, type a.out to execute your program.\n
+        7. You will see the output "\"Hello World"\" printed on the screen.\n\n
+
+
+    </string>
+    <string name="tokens"> C Tokens</string>
+    <string name="c_tokens">
+        In C programs, each word and punctuation is referred to as a token. C Tokens are the smallest building block or smallest unit of a C program.\n\n
+        The compiler breaks a program into the smallest possible units and proceeds to the various stages of the compilation, which is called token.\n\n
+        C programing Supports Six Types of Tokens:\n
+        1. Identifiers
+        2. Keywords
+        3. Constants
+        4. Strings
+        5. Operators
+        6. Special Symbols
+    </string>
+
+    <string name="identifier">C Identifiers</string>
+    <string name="c_identifier">
+        Identifiers are names given to different entities such as constants, variables, structures, functions, etc.\n
+        <b>Rules for naming identifiers:</b>\n
+        An identifier can only have alphanumeric characters (a-z , A-Z , 0-9) (i.e. letters &amp; digits) and underscore( _ ) symbol.\n
+        1. Identifier names must be unique.\n
+        2. The first character must be an alphabet or underscore.\n
+        3. You cannot use a keyword as identifiers.\n
+        4. Only the first thirty-one (31) characters are significant.\n
+        5. It must not contain white spaces.\n
+        6. Identifiers are case-sensitive.\n
+        <b>Example</b>\n
+        int amount;\n
+        double totalbalance;\n
+
+        In the above example, amount and totalbalance are identifiers and int, and double are keywords.\n\n
+
+    </string>
+    <string name="keyword">C Keyword</string>
+    <string name="c_keyword">
+        The C Keywords must be in your information because you can not use them as a variable name.\n
+        We cannot use a keyword as an identifier in your C programs, its reserved words in C library and used to perform an internal operation. The meaning and working of these keywords are already known to the compiler.\n\n
+
+        #include\uFE64stdio.h>\n
+        int main()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 float a, b;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0printf("\"Showing how keywords are used."\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 return 0;\n
+        }\n
+        In the above program, float and return are keywords. The float is used to declare variables, and return is used to return an integer type value in this program.\n
+    </string>
+
+    <string name="c_variable"> Variable</string>
+    <string name="cp_variable">
+        A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variables memory;\n
+
+        <b>Variable Definition in C</b>\n
+        A variable definition tells the compiler where and how much storage to create for the variable. A variable definition specifies a data type and contains a list of one or more variables of that type as follows.\n
+        int    i, j, k;\n
+        char   c, ch;\n
+        float  f, salary;\n
+        double d;\n\n
+        The line int i, j, k; declares and defines the variables i, j, and k; which instruct the compiler to create variables named i, j and k of type int.\n
+
+    </string>
+    <string name="operator">C Operators</string>
+    <string name="c_operators">
+        C operators are symbols that are used to perform mathematical or logical manipulations.\n
+        The C programming language is rich with built-in operators. Operators take part in a program for manipulating data and variables and form a part of the mathematical or logical expressions.\n\n
+        <b>Types of operators in C</b>\n
+        C programming language offers various types of operators having different functioning capabilities.\n
+        1. Arithmetic Operators.\n
+        2. Relational Operators.\n
+        3. Logical Operators.\n
+        4. Assignment Operators.\n
+        5. Increment and Decrement Operators.\n
+        6. Conditional Operator.\n
+        7. Bitwise Operators.\n
+        8. Special Operators.\n\n
+
+        <b>Arithmetic Operators </b>\n
+
+        Arithmetic Operators are used to performing mathematical calculations like addition (+), subtraction (-), multiplication (*), division (/) and modulus (%).\n
+        <b>Addition</b>\n
+        Add two number\n
+        #include \uFE64stdio.h>\n
+        int main()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0 int a=3;\n
+        \u00A0\u00A0\u00A0\u00A0 int b=7;\n
+        \u00A0\u00A0\u00A0\u00A0 int sum;\n
+        /* Variables Defining and Assign values */\n
+        \u00A0\u00A0\u00A0\u00A0 sum = a+b;\n
+        \u00A0\u00A0\u00A0\u00A0 printf("\"sum of two numbers is %d\n"\", sum);\n
+        }\n\n
+
+        <b>Subtraction</b>\n
+        subtract two number\n
+        #include \uFE64stdio.h>\n
+        int main()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0 int a=3;\n
+        \u00A0\u00A0\u00A0\u00A0 int b=7;\n
+        \u00A0\u00A0\u00A0\u00A0 int sub;\n
+        /* Variables Defining and Assign values */\n
+        \u00A0\u00A0\u00A0\u00A0 sub = a+b;\n
+        \u00A0\u00A0\u00A0\u00A0 printf("\"subtraction of two numbers is %d\n"\", sub);\n
+        }\n\n
+        <b>Multiplication</b>\n
+         multiply two number\n
+        #include \uFE64stdio.h>\n
+        int main()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0 int a=3;\n
+        \u00A0\u00A0\u00A0\u00A0 int b=7;\n
+        \u00A0\u00A0\u00A0\u00A0 int mul;\n
+        /* Variables Defining and Assign values */\n
+        \u00A0\u00A0\u00A0\u00A0 mul = a*b;\n
+        \u00A0\u00A0\u00A0\u00A0 printf("\"Multiplication of two numbers is %d\n"\", mul);\n
+        }\n\n
+
+        <b>Division</b>\n
+        #include \uFE64stdio.h>\n
+        int main()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0 int a=3;\n
+        \u00A0\u00A0\u00A0\u00A0 int b=7;\n
+        \u00A0\u00A0\u00A0\u00A0 int div;\n
+        /* Variables Defining and Assign values */\n
+        \u00A0\u00A0\u00A0\u00A0 div = a/b;\n
+        \u00A0\u00A0\u00A0\u00A0 printf("\"Division of two numbers is %d\n"\", div);\n
+        }\n\n
+
+        <b>Modulus</b>\n
+        #include \uFE64stdio.h>\n
+        int main()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0 int a=3;\n
+        \u00A0\u00A0\u00A0\u00A0 int b=7;\n
+        \u00A0\u00A0\u00A0\u00A0 int mud;\n
+        /* Variables Defining and Assign values */\n
+        \u00A0\u00A0\u00A0\u00A0 mud = a%b;\n
+        \u00A0\u00A0\u00A0\u00A0 printf("\"Modulus of two numbers is %d\n"\", mud);\n
+        }\n\n
+
+        <b>Logical Operator</b>\n
+        C provides three logical operators when we test more than one condition to make decisions. These are: &amp;&amp; (meaning logical AND), || (meaning logical OR) and ! (meaning logical NOT).\n
+        <b>&amp;&amp;	And operator.</b>\n
+        It performs logical conjunction of two expressions. (if both expressions evaluate to True, result is True. If either expression evaluates to False, the result is False)\n
+        <b>||	Or operator.</b>\n
+        It performs a logical disjunction on two expressions. (if either or both expressions evaluate to True, the result is True)\n
+        <b>!	Not operator.</b>\n
+        It performs logical negation on an expression.\n\n
+
+    </string>
+
+    <string name="input_output">C Input and Output</string>
+    <string name="c_input_output">
+        As we all know the three essential functions of a computer are reading, processing and writing data. Majority of the programs take data as input, and then after processing the processed data is being displayed which is called information. In C programming you can use scanf() and printf() predefined function to read and print data.\n
+        #include \uFE64stdio.h>\n
+        int main()\n
+        {\n
+        int a,b,c;\n
+        printf("\"Please enter any two numbers: "\");\n
+        scanf("%d %d", &amp;a, &amp;b);\n
+        c =  a + b;\n
+        printf("\"The addition of two number is: %d"\", c);\n
+        }\n
+        Please enter any two numbers:\n
+        12\n
+        3\n
+        The addition of two number is:15\n
+        The above program scanf() is used to take input from the user, and respectively printf() is used to display output result on the screen.\n\n
+    </string>
+
+    <string name="c_condition">Conditional Statement</string>
+    <string name="c_conditional_statement">
+
+        C conditional statements allow you to make a decision, based upon the result of a condition. These statements are called Decision Making Statements or Conditional Statements.\n
+        <b>if statement</b>\n
+        If statements in C is used to control the program flow based on some condition, it is used to execute some statement code block if the expression is evaluated to true. Otherwise, it will get skipped. This is the simplest way to modify the control flow of the program.\n
+        <b>Example</b>\n
+        #include\uFE64stdio.h>\n
+        int main()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0 int a = 15, b = 20;\n
+       \u00A0\u00A0\u00A0\u00A0  if (b > a) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 printf("\"b is greater"\");\n
+       \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>if-else statement</b>\n
+        If else statements in C is also used to control the program flow based on some condition, only the difference is: it is used to execute some statement code block if the expression is evaluated to true, otherwise executes else statement code block.\n
+        <b>Example</b>\n
+        #include\uFE64stdio.h>\n
+        int main()\n
+        {\n
+        int a, b;\n
+        printf("\"Please enter the value for a:"\");\n
+        scanf("\"%d"\", &amp;a);\n
+        printf("\"Please the value for b:"\");\n
+        scanf("\"%d"\", &amp;b);\n
+        if (a > b) {\n
+        printf("\n a is greater");\n
+        } else {\n
+        printf("\"b is greater"\");\n
+        }\n
+        }\n\n
+
+        <b>Nested if-else statement</b>\n
+        Nested if else statements play an important role in C programming, it means you can use conditional statements inside another conditional statement.\n\n
+        <b>Example</b>\n
+        #include\uFE64stdio.h>\n
+        int main()\n
+        {\n
+        int x=20,y=30;\n
+        \u00A0\u00A0\u00A0\u00A0 if(x==20)\n
+        \u00A0\u00A0\u00A0\u00A0{\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 if(y==30)\n
+        \u00A0\u00A0\u00A0\u00A0 {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 printf("\"value of x is 20, and value of y is 30."\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 }\n
+       \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+
+
+
+    </string>
+
+    <string name="c_loop">C Loop</string>
+    <string name="cp_loop">
+        Sometimes it is necessary for the program to execute the statement several times. A loop executes a block of commands a specified number of times until a condition is met. In this tutorial, you will learn about all the looping statements of C programming along with their use.\n\n
+        C supports the following types of loops:\n
+        1. while loops\n
+        2. do-while loops\n
+        3. for loops\n\n
+
+    </string>
+    <string name="while_loop">While Loop</string>
+    <string name="loop_while">
+        while loop is a most basic loop in C programming. while loop has one control condition, and executes as long the condition is true.  The condition of the loop is tested before the body of the loop is executed, hence it is called an entry-controlled loop.\n
+        <b>Syntax</b>\n
+        While (condition)\n
+        {\n
+        statement(s);\n
+        Incrementation;\n
+        }\n
+        <b>Example</b>
+        #include\uFE64stdio.h>\n
+        int main ()\n
+        {\n
+        \u00A0\u00A0\u00A0\u00A0 int n = 1,times=5;\n
+        /* local variable Initialization */\n
+        \u00A0\u00A0\u00A0\u00A0 while( n \uFE64= times )\n
+        /* while loops execution */\n
+       \u00A0\u00A0\u00A0\u00A0 {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 printf("\"C while loops: %d"\", n);\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 n++;\n
+       \u00A0\u00A0\u00A0\u00A0 }\n
+        \u00A0\u00A0\u00A0\u00A0return 0;\n
+        }\n
+    </string>
+
+    <string name="do_while">Do While</string>
+    <string name="do_while_loop">
+        C do while loops are very similar to the while loops, but it always executes the code block at least once and furthermore as long as the condition remains true. This is an exit-controlled loop.\n
+
+        <b>Syntax</b>\n
+        do\n
+        {\n
+        statement(s);\n
+
+        }while( condition );\n
+
+        <b>Example</b>\n
+        #include\uFE64stdio.h>\n
+        int main()\n
+        {\n
+        int n = 1,times=5;\n
+        /* local variable Initialization */ \n
+        do \n
+        /* do loops execution */\n
+        \u00A0\u00A0\u00A0\u00A0{\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 printf("\"C do while loops: %d"\", n);\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 n = n + 1;\n
+        \u00A0\u00A0\u00A0\u00A0}\n
+        while( n \uFE64= times );\n
+        return 0;\n
+        }\n\n
+
+
+
+    </string>
+    <string name="for_loop">For loop</string>
+    <string name="c_for_loop">
+        C for loops is very similar to a while loops in that it continues to process a block of code until a statement becomes false, and everything is defined in a single line. The for loop is also entry-controlled loop.\n
+
+        <b>Syntax</b>\n
+        for ( init; condition; increment )\n
+        {\n
+        statement(s);\n
+        }\n
+        <b>Example</b>
+        #include\uFE64stdio.h>\n
+        int main ()\n
+        {\n
+        int n,times=5;\n
+        /* local variable Initialization */\n
+        for( n = 1; n \uFE64= times; n = n + 1 )\n
+        /* for loops execution */\n
+        {\n
+        printf("\"C for loops: %d"\", n);\n
+        }\n
+        return 0;\n
+        }\n
+
+    </string>
+    <string name="function_c">C Function</string>
+    <string name="c_function">
+        C function is a self-contained block of statements that can be executed repeatedly whenever we need it.\n
+
+        <b>Benefits of function</b>\n
+        1. The function provides modularity.\n
+        2. The function provides reusable code.\n
+        3. In large programs, debugging and editing tasks is easy with the use of functions.\n
+        4. The program can be modularized into smaller parts.\n
+        5. Separate function independently can be developed according to the needs.\n
+
+        <b>Parts of function</b>\n
+        Function Prototype (function declaration)\n
+        Function Definition\n
+        Function Call\n
+
+        <b>Function Prototype</b>\n
+        <b>syntax</b>\n
+        dataType functionName (Parameter List)\n
+        <b>Example</b>\n
+        int addition();\n\n
+
+        <b>Function Definition</b>\n
+        <b>syntax</b>\n
+        returnType functionName(Function arguments){\n
+        //body of the function \n
+        }\n\n
+        <b>Example</b>\n
+        int addition()\n
+        {\n
+
+        }\n\n
+
+        <b>Function Call</b>\n
+         <b>Example</b>\n
+        #include\uFE64stdio.h>\n
+        int addition();\n
+        /* function declaration */\n
+        int main()\n
+        {\n
+        //local variable definition\n
+        int answer;\n
+        answer = addition();\n
+        //calling a function to get addition value.\n
+        printf("\"The addition of the two numbers is: %d"\",answer);\n
+        return 0;\n
+        }\n
+        //function returning the addition of two numbers\n
+        int addition()\n
+        {\n
+        int num1 = 10, num2 = 5;\n
+        // local variable definition\n
+        return num1+num2;\n
+        }\n\n
+
+    </string>
+    <string name="c_array">C Array</string>
+    <string name="cp_array">
+        The array is a data structure in C programming, which can store a fixed-size sequential collection of elements of the same data type.\n
+        In the C programming language, an array can be One-Dimensional, Two-Dimensional, and Multidimensional.\n\n
+        <b>array define</b>\n
+        type arrayName [ size ];\n
+        This is called a one-dimensional array. An array type can be any valid C data types, and array size must be an integer constant greater than zero.\n\n
+        <b>Example</b>\n
+        double amount[5];\n\n
+        <b>Array initialization</b>\n
+        Arrays can be initialized at declaration time:\n
+        int age[5]={22,25,30,32,35};\n\n
+        <b>Accessing Array element</b>\n
+        int myArray[5];\n
+        int n = 0;\n
+        // Initializing elements of array seperately\n
+        for(n=0;n\uFE64sizeof (myArray)/sizeof(myArray[0]);n++)\n
+        {\n
+        myArray[n] = n;\n
+        }\n
+        int a = myArray[3]; // Assigning 3rd element of array value to integer "a".\n\n
+
+
+
+    </string>
+    <string name="pointer">C Pointer</string>
+    <string name="c_pointer">
+        A pointer is a variable in C, and the pointers value is the address of a memory location.\n
+        <b>Definition of pointer</b>\n\n
+        <b>Syntax</b>\n
+        type *variable_name;\n
+        <b>Example></b>\n
+        int  *width;\n
+        char  *letter;\n
+        <b>Benefits of pointer</b>\n
+        1. Pointers allow the passing of arrays and strings to functions more efficiently.\n
+        2. Pointers make it possible to return more than one value from the function.\n
+        3. Pointers reduce the length and complexity of a program.\n
+        4. Pointers increase the processing speed.\n
+        5. Pointers save the memory.\n\n
+
+        <b>Example</b>\n
+        #include\uFE64stdio.h>\n
+        int main ()\n
+        {\n
+        int  n = 20, *pntr;  //actual and pointer variable declaration\n
+        pntr = &amp;n;  //store address of n in pointer variable\n
+        printf("\"Address of n variable: %x\n"\", &amp;n  );\n\n
+        //address stored in pointervariable\n
+        printf("\"Address stored in pntr variable: %x\n"\", pntr );\n\n
+        //access the value using the pointer\n
+        printf("\"Value of *pntr variable: %d"\", *pntr );\n
+
+   return 0;\n
+}\n
+
+
+
+
+
+    </string>
+
+
+<!--    C Programming end-->
+
+
+
+<!--    java programming start-->
+
+    <string name="java_title">JAVA</string>
+    <string name="java">
+        Java is a popular programming language.\n
+        Java is used to develop mobile apps, web apps, desktop apps, games and much more.\n
+        Java is an object oriented language and some concepts may be new. But we will learn the basic of java. In later we will learn more about java from advance version of our system.\n
+        Take breaks when needed, and go over the examples as many times as needed.\n\n
+
+        <b>Why Use Java?</b>\n
+        Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)\n
+        It is one of the most popular programming language in the world.\n
+        It is easy to learn and simple to use.\n
+        It is open-source and free.\n
+        It is secure, fast and powerful.\n
+        It has a huge community support (tens of millions of developers).\n
+        Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.\n
+        As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.\n\n
+
+    </string>
+
+    <string name="java_syntax">Java Syntax</string>
+    <string name="ja_syntax">
+         we have created a Java file called <b>Main.java</b>, and we used the following code to print "\"Hello World"\" to the screen:\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Hello World"\");\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Example explained</b>\n
+        Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.\n
+        <b>Note:</b> Java is case-sensitive: "\"MyClass"\" and "\"myclass"\" has different meaning.\n
+        The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename. To run the example above on your computer, make sure that Java is properly installed: Go to the Get Started Chapter for how to install Java. The output should be:\n
+
+
+        <b>The main Method</b>\n
+        The main() method is required and you will see it in every Java program:\n
+        <b>public static void main(String[] args)</b>\n
+        Any code inside the main() method will be executed. You do not have to understand the keywords before and after main. You will get to know them bit by bit while reading this tutorial.\n
+        For now, just remember that every Java program has a class name which must match the filename, and that every program must contain the main() method.\n
+
+        <b>System.out.println()</b>\n
+        Inside the main() method, we can use the println() method to print a line of text to the screen:\n
+
+        public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0 System.out.println("\"Hello World"\");\n
+        }\n\n
+
+        <b>Note:</b> The curly braces {} marks the beginning and the end of a block of code.\n
+        <b>Note:</b> Each code statement must end with a semicolon.\n
+
+    </string>
+
+    <string name="java_variable">Java Variables</string>
+    <string name="ja_variable">
+
+        <b>Java Variables</b>\n
+        Variables are containers for storing data values.\n
+        In Java, there are different types of variables, for example:\n
+        1. String - stores text, such as "\"Hello"\". String values are surrounded by double quotes\n
+        2. int - stores integers (whole numbers), without decimals, such as 123 or -123\n
+        3. float - stores floating point numbers, with decimals, such as 19.99 or -19.99\n
+        4. char - stores single characters, Char values are surrounded by single quotes\n
+        5. boolean - stores values with two states: true or false\n\n
+
+        Create a variable called name of type String and assign it the value "\"John"\":\n
+        String name = "\"John"\";\n
+        System.out.println(name);\n\n
+
+        Create a variable called myNum of type int and assign it the value 15:\n
+        int myNum = 15;\n
+        System.out.println(myNum);\n\n
+
+        We can also declare a variable without assigning the value, and assign the value later:\n
+        <b>Example</b>\n
+        int myNum;\n
+        myNum = 15;\n
+        System.out.println(myNum);\n\n
+
+        <b>NOTE:</b> if you assign a new value to an existing variable, it will overwrite the previous value:\n
+
+        <b>Example</b>\n
+        Change the value of myNum from 15 to 20:\n
+        int myNum = 15;\n
+        myNum = 20;  // myNum is now 20\n
+        System.out.println(myNum);\n\n
+
+        <b>Display Variables</b>\n
+        The <b>println()</b> method is often used to display variables.\n
+        To combine both text and a variable, use the + character:\n
+        <b>Example</b>
+        String name = "\"John"\";\n
+        System.out.println("\"Hello "\" + name);\n\n
+
+        We can also use the + character to add a variable to another variable:\n
+        <b>Example</b>\n
+        String firstName = "\"John "\";\n
+        String lastName = "\"Doe"\";\n
+        String fullName = firstName + lastName;\n
+        System.out.println(fullName);\n\n
+
+        <b>Declare Many Variables</b>\n
+        To declare more than one variable of the same type, use a comma-separated list:\n
+        <b>Example</b>\n
+        int x = 5, y = 6, z = 50;\n
+        System.out.println(x + y + z);\n\n
+
+        <b>The general rules for naming variables are:</b>\n
+        1. Names can contain letters, digits, underscores, and dollar signs\n
+        2. Names must begin with a letter\n
+        3. Names should start with a lowercase letter and it cannot contain whitespace\n
+        4. Names can also begin with $ and _ (but we will not use it in this tutorial)\n
+        5. Names are case sensitive ("\"myVar"\" and "\"myvar"\" are different variables)\n
+        6. Reserved words (like Java keywords, such as <b>int</b> or <b>boolean</b>) cannot be used as names\n\n
+
+        <b>Java Identifiers</b>\n
+        All Java variables must be identified with unique names.\n
+        These unique names are called identifiers.\n
+        Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).\n
+        <b>Note:</b> It is recommended to use descriptive names in order to create understandable and maintainable code:\n
+
+        <b>Example</b>\n
+        // Good\n
+        int minutesPerHour = 60;\n
+        // OK, but not so easy to understand what m actually is\n
+        int m = 60;\n
+
+    </string>
+    <string name="casting">Java Type Casting</string>
+    <string name="java_casting">
+        Type casting is when you assign a value of one primitive data type to another type.\n
+        In Java, there are two types of casting:\n
+        Widening Casting (automatically) - converting a smaller type to a larger type size\n
+        byte -> short -> char -> int -> long -> float -> double\n
+        Narrowing Casting (manually) - converting a larger type to a smaller size type\n
+        double -> float -> long -> int -> char -> short -> byte\n\n
+
+        <b>Widening Casting</b>\n
+        Widening casting is done automatically when passing a smaller size type to a larger size type:\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int myInt = 9;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 double myDouble = myInt;\n
+        // Automatic casting: int to double\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(myInt);\n
+        // Outputs 9\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(myDouble);\n
+        // Outputs 9.0\n
+       \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n
+
+        <b>Narrowing Casting</b>\n
+        Narrowing casting must be done manually by placing the type in parentheses in front of the value:\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 double myDouble = 9.78d;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int myInt = (int) myDouble;\n
+        // Manual casting: double to int\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(myDouble); \n
+        // Outputs 9.78\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(myInt);\n
+        // Outputs 9\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+
+    </string>
+
+    <string name="java_operator"> Java Operators</string>
+    <string name="operator_java">
+        Operators are used to perform operations on variables and values.\n
+        In the example below, we use the + operator to add together two values:\n
+        <b>Example</b>\n
+        int x = 100 + 50;\n
+        Although the + operator is often used to add together two values, like in the example above, it can also be used to add together a variable and a value, or a variable and another variable:\n
+        <b>Example</b>\n
+        int sum1 = 100 + 50;\n
+        // 150 (100 + 50)\n
+        int sum2 = sum1 + 250;\n
+        // 400 (150 + 250)\n
+        int sum3 = sum2 + sum2;\n
+        // 800 (400 + 400)\n\n
+        <b>operators type</b>\n
+        Java divides the operators into the following groups:\n
+        1. Arithmetic operators\n
+        2. Assignment operators\n
+        3. Comparison operators\n
+        4. Logical operators\n
+        5. Bitwise operators\n\n
+
+        <b>Arithmetic Operators</b>\n
+        Arithmetic operators are used to perform common mathematical operations.\n
+        <b>Addition</b>\n
+        Adds together two values.\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 7;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int y = 3;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x + y);\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Subtraction</b>\n
+        Subtracts one value from another\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 7;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int y = 3;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x - y);\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Multiplication</b>\n
+        Multiplies two values\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 7;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int y = 3;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x * y);\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Division</b>\n
+        Divides one value by another\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 7;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int y = 3;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x / y);\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Modulus</b>\n
+        Returns the division remainder\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 7;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int y = 3;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x % y);\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Increment</b>\n
+        Increases the value of a variable by 1\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 5;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 x++;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x);\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Decrement</b>\n
+        Decreases the value of a variable by 1\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 5;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 x--;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x);\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Java Assignment Operators</b>\n
+        Assignment operators are used to assign values to variables.\n
+        In the example below, we use the <b>assignment operator (=) </b>to assign the value 10 to a variable called x:\n
+        <b>Example</b>\n
+        int x = 10;\n\n
+
+        <b>addition assignment operator</b>\n
+        The addition assignment operator (+=) adds a value to a variable:\n
+        <b>Example</b>\n
+        int x = 10;\n
+        x += 5;\n\n
+
+        <b>Logical Operators</b>\n
+        Logical operators are used to determine the logic between variables or values:\n
+        <b>Logical and, &amp;&amp;</b>\n
+        Returns true if both statements are true\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 5;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x > 3 &amp;&amp; x \uFE64 10);\n
+        // returns true because 5 is greater than 3 AND 5 is less than 10\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+
+        <b>Logical or, ||</b>\n
+        Returns true if one of the statements is true\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 5;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(x > 3 || x \uFE64 4);\n
+        // returns true because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+        <b>Logical not, !</b>\n
+        Reverse the result, returns false if the result is true\n
+        <b>Example</b>\n
+        public class Main {\n
+        \u00A0\u00A0\u00A0\u00A0 public static void main(String[] args) {\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 int x = 5;\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println(!(x > 3 &amp;&amp; x \uFE64 10));\n
+        // returns false because ! (not) is used to reverse the result\n
+        \u00A0\u00A0\u00A0\u00A0 }\n
+        }\n\n
+
+
+
+
+    </string>
+    <string name="ja_string">Java String</string>
+    <string name="java_string">
+        Strings are used for storing text.\n
+        A String variable contains a collection of characters surrounded by double quotes:\n\n
+
+        <b>Example</b>\n
+        Create a variable of type String and assign it a value:\n
+        String greeting = "\"Hello"\";\n\n
+
+        <b>String Length</b>\n
+        A String in Java is actually an object, which contain methods that can perform certain operations on strings. For example, the length of a string can be found with the <b>length()</b> method:\n
+        <b>Example</b>\n
+        String txt = "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ"\";\n
+        System.out.println("\"The length of the txt string is: "\" + txt.length());\n\n
+
+        <b>String Methods</b>\n
+        There are many string methods available, for example <b>toUpperCase()</b> and <b>toLowerCase():</b>\n
+        <b>Example</b>\n
+        String txt = "\"Hello World"\";\n
+        System.out.println(txt.toUpperCase());\n
+        // Outputs "\"HELLO WORLD"\"\n
+        System.out.println(txt.toLowerCase());\n
+        // Outputs "\"hello world"\"\n\n
+
+        <b>String Concatenation</b>\n
+        The + operator can be used between strings to combine them. This is called concatenation:\n
+        <b>Example</b>\n
+        String firstName = "\"mirazur"\";\n
+        String lastName = "\"rahman"\";\n
+        System.out.println(firstName + "\" "\" + lastName);\n
+        <b>Note:</b>  we have added an empty text ("\" "\") to create a space between firstName and lastName on print.\n\n
+
+
+        <b>Concat Method</b>\n
+        You can also use the <b>concat()</b> method to concatenate two strings:\n
+        <b>Example</b>\n
+        String firstName = "\"mirazur"\";\n
+        String lastName = "\"rahman"\";\n
+        System.out.println(firstName.concat(lastName));\n\n
+
+
+
+    </string>
+
+    <string name="math">Java Math</string>
+    <string name="java_math">
+        The Java Math class has many methods that allows you to perform mathematical tasks on numbers.\n
+
+        <b>MAX method</b>\n
+        The <b>Math.max(x,y)</b> method can be used to find the highest value of x and y:\n
+        <b>Example</b>\n
+        Math.max(5, 10);\n
+
+        <b>MIN method</b>\n
+        The <b>Math.min(x,y)</b> method can be used to find the lowest value of x and y:\n
+        <b>Example</b>\n
+        Math.min(5, 10);\n\n
+
+        <b>Math.sqrt</b>\n
+        The <b>Math.sqrt(x)</b> method returns the square root of x:\n
+        <b>Example</b>\n
+        Math.sqrt(64);\n\n
+
+        <b>Math.abs(x)</b>\n
+        The <b>Math.abs(x)</b> method returns the absolute (positive) value of x:\n
+
+        <b>Example</b>\n
+        Math.abs(-4.7);\n
+
+
+    </string>
+
+    <string name="java_condition">Java If-Else</string>
+    <string name="java_if_else">
+        We can use all conditions to perform different actions for different decisions.\n
+        Java has the following conditional statements:\n
+
+        1. Use <b>if</b> to specify a block of code to be executed, if a specified condition is true\n
+        2. Use <b>else</b> to specify a block of code to be executed, if the same condition is false\n
+        3. Use <b>else if</b> to specify a new condition to test, if the first condition is false\n
+        4. Use <b>switch</b> to specify many alternative blocks of code to be executed\n\n
+
+        <b>if Statement</b>\n
+        Use the if statement to specify a block of Java code to be executed if a condition is true.\n
+
+        <b>Syntax</b>\n
+        if (condition) {\n
+        // block of code to be executed if the condition is true\n
+        }\n
+
+        <b>NOTE:</b> The if is in lowercase letters. Uppercase letters (If or IF) will generate an error.\n
+
+        <b>Example</b>\n
+        if (20 > 18) {\n
+        \u00A0\u00A0\u00A0\u00A0 System.out.println("\"20 is greater than 18"\");\n
+        }\n
+
+        <b>Explain</b>\n
+        In the above example we test two values to find out if 20 is greater than 18. If the condition is true, print some text:\n
+
+        <b>Another Example</b>\n
+        int x = 20;\n
+        int y = 18;\n
+        if (x > y) {\n
+        \u00A0\u00A0\u00A0\u00A0 System.out.println("\"x is greater than y"\");\n
+        }\n
+        <b>Explain</b>\n
+        In the example above we use two variables, x and y, to test whether x is greater than y (using the > operator). As x is 20, and y is 18, and we know that 20 is greater than 18, we print to the screen that "\"x is greater than y"\". \n\n\n
+
+
+        <b>else Statement</b>\n
+        Use the else statement to specify a block of code to be executed if the condition is false.\n
+
+        <b>Syntax</b>\n
+        if (condition) {\n
+        \u00A0\u00A0\u00A0\u00A0 // block of code to be executed if the condition is true\n
+        } else {\n
+        \u00A0\u00A0\u00A0\u00A0 // block of code to be executed if the condition is false\n
+        }\n\n
+
+        <b>Example</b>\n
+        int time = 20;\n
+        if (time \uFE64 18) {\n
+        System.out.println("\"Good day."\");\n
+        } else {\n
+        System.out.println("\"Good evening."\");\n
+        }\n
+        // Outputs "\"Good evening."\" \n\n
+
+        <b>Explain</b>\n
+        In the example above, time (20) is greater than 18, so the condition is false. Because of this, we move on to the else condition and print to the screen "\"Good evening"\". If the time was less than 18, the program would print "\"Good day"\".\n
+
+        <b>else if Statement</b>\n
+        Use the else if statement to specify a new condition if the first condition is false.\n
+
+        <b>Syntax</b>\n
+        if (condition1) {\n
+        \u00A0\u00A0\u00A0\u00A0 // block of code to be executed if condition1 is true\n
+        } else if (condition2) {\n
+        \u00A0\u00A0\u00A0\u00A0 // block of code to be executed if the condition1 is false and condition2 is true\n
+        } else {\n
+        \u00A0\u00A0\u00A0\u00A0 // block of code to be executed if the condition1 is false and condition2 is false\n
+        }\n\n
+
+        <b>Example</b>\n
+        int time = 22;\n
+        if (time \uFE64 10) {\n
+        System.out.println("\"Good morning."\");\n
+        } else if (time \uFE64 20) {\n
+        System.out.println("\"Good day."\");\n
+        } else {\n
+        System.out.println("\"Good evening."\");\n
+        }\n
+        // Outputs "\"Good evening."\" \n\n
+
+        <b>Explain</b>\n
+        In the example above, time (22) is greater than 10, so the first condition is false. The next condition, in the else if statement, is also false, so we move on to the else condition since condition1 and condition2 is both false - and print to the screen "\"Good evening"\".\n\n
+
+    </string>
+    <string name="ja_switch">Java Switch</string>
+    <string name="java_switch">
+        Use the switch statement to select one of many code blocks to be executed.\n
+        <b>Syntax</b>\n
+        \switch(expression) {\n
+        \u00A0\u00A0\u00A0\u00A0 case x:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 // code block\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 case y:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 // code block\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 default:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 // code block\n
+        }\n\n
+
+        <b>how it works:</b>\n
+
+        The switch expression is evaluated once.\n
+        The value of the expression is compared with the values of each case.\n
+        If there is a match, the associated block of code is executed.\n
+        The break and default keywords are optional, and will be described later in this chapter\n
+        The example below uses the weekday number to calculate the weekday name:\n\n
+
+        <b>Example</b>\n
+        int day = 4;\n
+        switch (day) {\n
+        \u00A0\u00A0\u00A0\u00A0 case 1:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Monday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 case 2:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Tuesday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 case 3:\n
+        \u00A0\u00A0\u00A0\u00A0 System.out.println("\"Wednesday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 case 4:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Thursday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 case 5:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Friday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 case 6:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Saturday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 case 7:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Sunday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        }\n
+        // Outputs "\"Thursday"\" (day 4)\n\n\n
+
+        <b>break Keyword</b>\n
+        When Java reaches a break keyword, it breaks out of the switch block.\n
+        This will stop the execution of more code and case testing inside the block.\n
+        When a match is found, and the job is done, it is time for a break. There is no need for more testing.\n\n
+        <b>NOTE: </b>A break can save a lot of execution time because it "\"ignores"\" the execution of all the rest of the code in the switch block.\n\n
+
+
+        <b>default Keyword</b>\n
+        The <b>default</b> keyword specifies some code to run if there is no case match:\n
+
+        <b>Example</b>\n
+        int day = 4;\n
+        switch (day) {\n
+        \u00A0\u00A0\u00A0\u00A0 case 6:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Today is Saturday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0case 7:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Today is Sunday"\");\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break;\n
+        \u00A0\u00A0\u00A0\u00A0 default:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 System.out.println("\"Looking forward to the Weekend"\");\n
+        }\n
+        // Outputs "\"Looking forward to the Weekend"\" \n\n
+
+        <b>NOTE: </b> if the default statement is used as the last statement in a switch block, it does not need a break.\n\n
+
+
+
+
+    </string>
+
+    <string name="loop_while_ja">While Loop</string>
+    <string name="java_while_loop">
+        Loops can execute a block of code as long as a specified condition is reached.\n
+        Loops are handy because they save time, reduce errors, and they make code more readable.\n\n
+        The <b>while</b> loop loops through a block of code as long as a specified condition is true:\n
+
+        <b>Syntax</b>\n
+        while (condition) {\n
+        // code block to be executed\n
+        }\n
+
+        <b>Example</b>\n
+        int i = 0;\n
+        while (i \uFE64 5) {\n
+        \u00A0\u00A0\u00A0\u00A0 System.out.println(i);\n
+        \u00A0\u00A0\u00A0\u00A0 i++;\n
+        }\n
+
+        <b>Note: </b> Do not forget to increase the variable used in the condition, otherwise the loop will never end!\n\n
+
+        <b>Do/While Loop</b>\n
+        The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.\n
+
+        <b>Syntax</b>\n
+        do {\n
+        // code block to be executed\n
+        }\n
+        while (condition);\n
+
+        <b>Example</b>\n
+        int i = 0;\n
+        do {\n
+        System.out.println(i);\n
+        i++;\n
+        }\n
+        while (i \uFE64 5);\n
+
+        <b>Explain</b>\n
+        The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:\n
+
+        <b>NOTE: </b> Do not forget to increase the variable used in the condition, otherwise the loop will never end!\n
+
+
+
+    </string>
+    <string name="loop_for">For loop</string>
+    <string name="java_for_loop">
+        When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:\n
+        <b>Syntax</b>\n
+        for (statement 1; statement 2; statement 3) {\n
+        \u00A0\u00A0\u00A0\u00A0 // code block to be executed\n
+        }\n
+        <b>Statement 1</b> is executed (one time) before the execution of the code block.\n
+        <b>Statement 2</b> defines the condition for executing the code block.\n
+        <b>Statement 3</b> is executed (every time) after the code block has been executed.\n\n
+        The example below will print the numbers 0 to 4:\n
+
+        <b>Example 1</b>\n
+        for (int i = 0; i \uFE64 5; i++) {\n
+        \u00A0\u00A0\u00A0\u00A0 System.out.println(i);\n
+        }\n\n
+
+        <b>explained</b>\n
+        Statement 1 sets a variable before the loop starts (int i = 0).\n
+        Statement 2 defines the condition for the loop to run (i must be less than 5). If the condition is true, the loop will start over again, if it is false, the loop will end.\n
+        Statement 3 increases a value (i++) each time the code block in the loop has been executed.\n
+
+
+        <b>Example 2</b>\n
+        for (int i = 0; i \uFE64= 20; i = i + 2) {\n
+        \u00A0\u00A0\u00A0\u00A0System.out.println(i);\n
+        }\n\n
+
+        This example will only print even values between 0 and 20:\n
+
+    </string>
+
+    <string name="ja_array">Java Array</string>
+    <string name="java_array">
+        Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.\n
+        To declare an array, define the variable type with <b>square brackets:</b>\n\n
+
+        We have now declared a variable that holds an array of strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:\n\n
+        String[] cars = {"\"Volvo"\", "\"BMW"\", "\"Ford"\", "\"Mazda"\"};\n\n
+
+        To create an array of integers, you could write:\n
+        int[] myNum = {10, 20, 30, 40};\n\n
+
+        <b>Access an Array Elements</b>\n
+        You access an array element by referring to the index number.\n
+        This statement accesses the value of the first element in cars:\n
+        <b>Example</b>\n
+        String[] cars = {"\"Volvo"\", "\"BMW"\", "\"Ford"\", "\"Mazda"\"};\n
+        System.out.println(cars[0]);\n
+        // Outputs Volvo\n
+        <b>Note: </b> Array indexes start with 0: [0] is the first element. [1] is the second element, etc.\n\n
+
+        <b>Change an Array Element</b>\n
+        To change the value of a specific element, refer to the index number:\n
+        <b>Example</b>\n
+        String[] cars = {"\"Volvo"\", "\"BMW"\", "\"Ford"\", "\"Mazda"\"};\n
+        cars[0] = "\"Opel"\";\n
+        System.out.println(cars[0]);\n
+        // Now outputs Opel instead of Volvo\n\n
+
+        <b>Array Length</b>\n
+        To find out how many elements an array has, use the length property:\n
+        <b>Example</b>\n
+        String[] cars = {"\"Volvo"\", "\"BMW"\", "\"Ford"\", "\"Mazda"\"};
+        System.out.println(cars.length);\n
+        // Outputs 4\n\n
+        <b>We will learn more about array in later</b>\n
+
+
+
+
+
+
+
+
+
+    </string>
+
+    
+
+
+
+
+<!--    java programming end-->
+
+<!--    Python Programming Start-->
+
+    <string name="py_title">Python</string>
+    <string name="python">
+        Python is a popular programming language.\n
+        Python can be used on a server to create web applications.\n
+        </string>
+
+    <string name="py_doc">Python Document</string>
+    <string name="py_document">
+
+        <b>What is Python?</b>\n
+        Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.\n
+        <b>It is used for:</b>\n
+        1. web development (server-side),\n
+        2. software development,\n
+        3. mathematics,\n
+        4. system scripting.\n
+        <b>What can Python do?</b>\n
+        1. Python can be used on a server to create web applications.\n
+        2. Python can be used alongside software to create workflows.\n
+        3. Python can connect to database systems. It can also read and modify files.\n
+        4. Python can be used to handle big data and perform complex mathematics.\n
+        5. Python can be used for rapid prototyping, or for production-ready software development.\n
+        <b>Why Python?</b>\n
+        Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).\n
+        Python has a simple syntax similar to the English language.\n
+        Python has syntax that allows developers to write programs with fewer lines than some other programming languages.\n
+        Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.\n
+        Python can be treated in a procedural way, an object-oriented way or a functional way.\n
+        <b>Good to know</b>\n
+        The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.\n
+        In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.\n
+        Python Syntax compared to other programming languages\n
+        Python was designed for readability, and has some similarities to the English language with influence from mathematics.\n
+        Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.\n
+        Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.\n
+
+    </string>
+    <string name="syntax">Python Syntax</string>
+    <string name="py_syntax">
+        Python syntax can be executed by writing directly in the Command Line:\n
+        <b>Example:</b>\n
+        >>> print("\"Hello, World!"\")\n
+        Hello, World!\n\n
+
+        Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:\n
+        <b>Example:</b>\n
+        C:\Users\Your Name>python myfile.py\n\n
+        <b>Python Indentation</b>\n
+        Indentation refers to the spaces at the beginning of a code line.\n
+        Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.\n
+        Python uses indentation to indicate a block of code.\n
+        <b>Example:</b>\n
+        if 5 > 2:\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"Five is greater than two!"\")\n\n
+
+        Python will give you an error if you skip the indentation:\n
+        <b>Example</b>\n
+        if 5 > 2:\n
+        print("\"Five is greater than two!"\")\n
+        //Above example has "\"Syntax Error"\":\n\n
+
+    </string>
+    <string name="comments">Python Comments</string>
+    <string name="py_comments">
+        Comments can be used to explain Python code.\n
+        Comments can be used to make the code more readable.\n
+        Comments can be used to prevent execution when testing code.\n
+
+        <b>Creating a Comment</b>\n
+        Comments starts with a #, and Python will ignore them:\n
+        <b>Example</b>\n
+        #This is a comment\n
+        print("\"Hello, World!"\")\n\n
+        A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code:\n\n
+
+    </string>
+    <string name="variables_py">Python Variables</string>
+    <string name="python_variable">
+        Variables are containers for storing data values.\n
+        <b>Creating Variables</b>\n
+        Python has no command for declaring a variable.\n
+        A variable is created the moment you first assign a value to it.\n\n
+        <b>Example</b>\n
+        x = 5\n
+        y = "\"miraz"\"  \n
+        print(x)\n
+        print(y)\n\n
+
+        In python Variables do not need to be declared with any particular type, and can even change type after they have been set.\n
+        <b>Example:</b>\n
+        x = 4       # x is of type int\n
+        x = "\"Sally"\" # x is now of type str\n
+
+        <b>Casting</b>\n
+        But If we want to specify the data type of a variable, this can be done with casting.\n
+        <b>Example:</b>\n
+        x = str(3)    # x will be "\"3"\" \n
+        y = int(3)    # y will be 3\n
+        z = float(3)  # z will be 3.0\n
+
+        <b>Get the Type</b>\n
+        You can get the data type of a variable with the <b>type()</b> function.\n
+        <b>Example:</b>\n
+        x = 5\n
+        y = "\"John"\"\n
+        print(type(x))\n
+        print(type(y))\n\n
+
+        <b>Case-Sensitive</b>\n
+        In python Variable names are case-sensitive.\n
+        <b>Example:</b>\n
+        This will create two variables:\n
+        a = 4\n
+        A = "\"BMW"\"\n
+        #A will not overwrite a\n\n
+
+        <b>Variable Names</b>\n
+        A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:\n\n
+        1. A variable name must start with a letter or the underscore character\n
+        2. A variable name cannot start with a number\n
+        3. A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )\n
+        4. Variable names are case-sensitive (age, Age and AGE are three different variables)\n\n
+
+        <b>Example</b>\n
+        Legal variable names:\n
+        myvar = "\"miraz"\" \n
+        my_var = "\"arman"\" \n
+        _my_var = "\"nabil"\" \n
+        myVar = "\"rafi"\" \n
+        MYVAR = "\"rahman"\" \n
+        myvar2 = "\"ahmed"\" \n\n
+
+        <b>NOTE: </b>Remember that variable names are case-sensitive\n\n
+
+    </string>
+    <string name="py_operators">Python Operators</string>
+    <string name="python_operators">
+        Operators are used to perform operations on variables and values.\n
+        In the example below, we use the + operator to add together two values:\n
+        <b>Example</b>\n
+        print(10 + 5)\n\n
+
+        Python divides the operators in the following groups:\n
+        1. Arithmetic operators\n
+        2. Assignment operators\n
+        3. Comparison operators\n
+        4. Logical operators\n
+        5. Identity operators\n
+        6. Membership operators\n
+        7. Bitwise operators\n\n
+
+        <b>Arithmetic operators</b>\n
+        Arithmetic operators are used with numeric values to perform common mathematical operations:\n
+        <b>Addition Operator:</b>\n
+        Adds the values on either side of the operator and calculate a result.\n
+        <b>Example:</b>\n
+        x = 5\n
+        y = 3\n
+        print(x + y)\n
+        <b>Subtraction Operator:</b>\n
+        Subtracts values of right side operand from left side operand.\n
+        <b>Example:</b>\n
+        x = 5\n
+        y = 3\n
+        print(x - y)\n
+        <b>Multiplication Operator:</b>\n
+        Multiplies the values on both sides of the operator.\n
+        <b>Example:</b>\n
+        x = 5\n
+        y = 3\n
+        print(x * y)\n
+        <b>Division Operator:</b>\n
+        Divides left side operand with right side operand.\n
+        <b>Example:</b>\n
+        x = 12\n
+        y = 3\n
+        print(x / y)\n
+        <b>Modulus Operator:</b>\n
+        It returns the remainder by dividing the left side operand with right side operand\n
+        <b>Example:</b>\n
+        x = 5\n
+        y = 2\n
+        print(x % y)\n
+
+        <b>Exponent Operator:</b>\n
+        Calculates the exponential power.\n
+        <b>Example:</b>\n
+        x = 2\n
+        y = 5\n
+        print(x ** y) #same as 2*2*2*2*2\n
+
+        <b>Floor Division:</b>\n
+        Here the result is the quotient in which the digits after decimal points are not taken into account.\n
+        <b>Example:</b>\n
+        x = 15\n
+        y = 2\n
+        print(x // y)\n
+        #the floor division // rounds the result down to the nearest whole number.\n\n
+
+        <b>Comparison Operators:</b>\n
+        Comparison operators are used to compare two values:\n
+        <b>Equal Operator:</b>\n
+        If the values of two operands are equal, then the condition becomes true.\n
+        <b>Example:</b>\n
+        x = 7\n
+        y = 3\n
+        print(x == y)\n
+        # returns False because 7 is not equal to 3\n
+
+
+        <b>Not Equal</b>\n
+        If values of two operands are not equal, then condition becomes true.\n
+        <b>Example:</b>\n
+        x = 7\n
+        y = 3\n
+        print(x != y)\n
+        # returns True because 7 is not equal to 3\n
+
+        <b>Greater than:</b>\n
+        If the value of left operand is greater than the value of right operand, then condition becomes true.\n
+        <b>Example:</b>\n
+        x = 7\n
+        y = 3\n
+        print(x > y)\n
+        # returns True because 7 is greater than 3\n
+
+        <b>Less than</b>\n
+        If the value of left operand is less than the value of right operand, then condition becomes true.\n
+        <b>Example:</b>\n
+        x = 7\n
+        y = 3\n
+        print(x \uFE64 y)\n
+        # returns False because 7 is not less than 3\n\n
+
+        <b>Logical Operators</b>\n
+        Logical operators are used to combine conditional statements:\n
+        <b>And Operator</b>\n
+        Returns True if both statements are true\n
+        <b>Example:</b>\n
+        x = 5\n
+        print(x > 3 and x \uFE64 10)\n
+        # returns True because 5 is greater than 3 AND 5 is less than 10\n
+
+        <b>OR Operator</b>\n
+        Returns True if one of the statements is true\n
+        <b>Example:</b>\n
+        x = 5\n
+        print(x > 3 or x \uFE64 4)\n
+        # returns True because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)\n
+
+        <b>NOT Operator</b>\n
+        Reverse the result, returns False if the result is true\n
+        <b>Example:</b>\n
+        x = 5\n
+        print(not(x > 3 and x \uFE64 10))\n
+        # returns False because not is used to reverse the result.\n
+
+    </string>
+
+    <string name="py_list">Python Lists</string>
+    <string name="python_lists">
+        Lists are used to store multiple items in a single variable.\n
+        Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage. We will learn about others in the next chapter\n
+
+        <b>Create a List:</b>\n
+        Lists are created using square brackets:\n
+        <b>Example:</b>\n
+        my_list = ["\"apple"\", "\"banana"\", "\"cherry"\"]\n
+        print(my_list)\n\n
+
+        <b>List Items</b>\n
+        List items are ordered, changeable, and allow duplicate values.\n
+        List items are indexed, the first item has index [0], the second item has index [1] etc.\n\n
+
+        <b>Ordered</b>\n
+        When we say that lists are ordered, it means that the items have a defined order, and that order will not change.\n
+        If you add new items to a list, the new items will be placed at the end of the list.\n\n
+        <b>Changeable</b>\n
+        The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.\n
+
+        <b>Duplicates</b>\n
+        Since lists are indexed, lists can have items with the same value.So, Lists allow duplicate values:\n
+        <b>Example</b>\n
+        my_team = ["\"arman"\", "\"miraz"\", "\"nabil"\", "\"rafi"\"]\n
+        print(my_team)\n
+
+        <b>List Length</b>\n
+
+        We can see the total number of items in the list:\n
+        To determine how many items a list has, use the <b>len()</b> function:\n
+        <b>Example:</b>\n
+        fruit_list = ["\"apple"\", "\"banana"\", "\"cherry"\"]\n
+        print(len(fruit_list))\n\n
+
+        <b>Data Types</b>\n
+        List items can be of any data type: like String, int and boolean data types:\n
+        <b>Example:</b>\n
+        list_str = ["\"apple"\", "\"banana"\", "\"cherry"\"]\n
+        list_int = [1, 5, 7, 9, 3]\n
+        list_bool = [True, False, False]\n\n
+
+        Also A list can contain different data types:\n
+        A list can with strings, integers and boolean values:\n
+        <b>Example</b>\n
+        list = ["\"abc"\", 34, True, 40, "\"male"\"]\n\n
+
+        <b>The list() Constructor</b>\n
+        It is also possible to use the list() constructor when creating a new list.\n
+        <b>Example</b>\n
+        Using the list() constructor to make a List:\n
+        fruits_list = list(("\"apple"\", "\"banana"\", "\"cherry"\"))\n
+        # note the double round-brackets.\n
+        print(fruits_list)\n
+
+        <b>Access List Items</b>\n
+        List items are indexed and you can access them by referring to the index number:\n
+        Example: Print the second item of the list:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        print(name_list[1])\n
+        <b>Note:</b> The first item has index 0.\n\n
+        <b>Negative Indexing</b>\n
+        Negative indexing means start from the end of list.\n
+        -1 refers to the last item, -2 refers to the second last item etc.\n
+        <b>Example:</b>\n
+        Print the last item of the list:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        print(name_list[-1])\n\n
+
+        <b>Range of Indexes</b>\n
+        We can specify a range of indexes by specifying where to start and where to end the range.\n
+        When specifying a range, the return value will be a new list with the specified items.\n
+        <b>Example</b>\n
+        Return the third, fourth, and fifth item:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\","\"rahman"\", "\"ahmed"\"]\n
+        print(name_list[2:5])\n\n
+
+        By leaving out the start value, the range will start at the first item:\n
+        <b>Example</b>\n
+        This example returns the items from the beginning to, but NOT including, "\"rahman"\":\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\","\"rahman"\", "\"ahmed"\"]\n
+        print(name_list[:4])\n\n
+
+        Also By leaving out the end value, the range will go on to the end of the list:\n
+        <b>Example</b>\n
+        This example returns the items from "\"nabil"\" to the end:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\","\"rahman"\", "\"ahmed"\"]\n
+        print(name_list[2:])\n\n
+
+        <b>Change List Items</b>\n
+        To change the value of a specific item, refer to the index number:\n
+        <b>Example</b>\n
+        Change the second item:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        name_list = "\"rahman"\"
+        print(name_list)\n\n
+
+        <b>Append Items</b>\n
+        To add an item to the end of the list, use the append() method:\n
+        <b>Example</b>\n
+        Using the append() method to append an item:\n
+
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        name_list.append("\"rahman"\")\n
+        print(name_list)\n\n
+
+        <b>Insert Items</b>\n
+        To insert a list item at a specified index, use the insert() method.\n
+        The insert() method inserts an item at the specified index:\n
+        <b>Example</b>\n
+        Insert an item as the second position:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        name_list.insert(1, "\"rahman"\")\n
+        print(name_list)\n\n
+
+        <b>Loop Through a List</b>\n
+        We can loop through the list items by using a for loop:\n
+        <b>Example</b>\n
+        Print all items in the list, one by one:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        for x in name_list:\n
+        \u00A0\u00A0\u00A0\u00A0print(x)\n
+
+        <b>Note: </b> We will learn more about list in advance level.
+
+    </string>
+
+    <string name="py_tuple">Python Tuple</string>
+    <string name="python_tuple">
+        Tuples are used to store multiple items in a single variable.\n
+        Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.\n
+        A tuple is a collection which is ordered and unchangeable.\n
+        Tuples are written with round brackets.\n
+
+        <b>Create a Tuple:</b>\n
+        <b>Example</b>\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        print(name_list)\n\n
+        <b>Tuple Items</b>\n
+        Tuple items are ordered, unchangeable, and allow duplicate values.\n
+        Tuple items are indexed, the first item has index [0], the second item has index [1] etc.\n
+        <b>Ordered</b>\n
+        When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.\n
+        <b>Unchangeable</b>\n
+        Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.\n
+
+       <b>Duplicates</b> \n
+        Since tuples are indexed, they can have items with the same value:\n
+        <b>Example</b>\n
+        Tuples allow duplicate values:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\","\"miraz"\", "\"rafi"\"]\n
+        print(name_list)\n\n
+
+        <b>Tuple Length</b>\n
+        To determine how many items a tuple has, use the <b>len()</b> function:
+        <b>Example</b>\n
+        Print the number of items in the tuple:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        print(len(name_list))\n\n
+
+
+        <b>Access Tuple Items</b>\n
+        We can access tuple items by referring to the index number, inside square brackets:\n
+        <b>Example</b>\n
+        Print the second item in the tuple:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        print(name_list[1])\n\n
+        <b>Note: </b> The first item has index 0.\n
+
+        <b>Negative Indexing</b>\n
+        Negative indexing means start from the end.\n
+        -1 refers to the last item, -2 refers to the second last item etc.\n
+        <b>Example</b>\n
+        Print the last item of the tuple:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\"]\n
+        print(name_list[-1])\n\n
+
+        <b>Range of Indexes</b>\n
+        We can specify a range of indexes by specifying where to start and where to end the range.\n
+        When specifying a range, the return value will be a new tuple with the specified items.\n
+        <b>Example</b>\n
+        Return the third, fourth, and fifth item:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\","\"rahman"\", "\"ahmed"\"]\n
+        print(name_list[2:5])\n\n
+
+        <b>Note: </b>The search will start at index 2 (included) and end at index 5 (not included).\n
+        <b>Remember that the first item has index 0.</b>\n
+
+        By leaving out the start value, the range will start at the first item:\n
+        <b>Example</b>\n
+        This example returns the items from the beginning to, but NOT included, ""\"rahman"\":\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\","\"rahman"\", "\"ahmed"\"]\n
+        print(name_list[:4])\n\n
+
+
+        By leaving out the end value, the range will go on to the end of the list:\n
+        <b>Example</b>\n
+        This example returns the items from "\"nabil"\" and to the end:\n
+        name_list = ["\"miraz"\", "\"arman"\", "\"nabil"\", "\"rafi"\","\"rahman"\", "\"ahmed"\"]\n
+        print(name_list[2:])\n\n
+         <b>Note: </b> We will learn more about Tuple in advance level.\n
+
+    </string>
+    <string name="py_set">Python Sets</string>
+    <string name="python_set">
+        Sets are used to store multiple items in a single variable.\n
+        Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.\n
+        A set is a collection which is unordered, unchangeable*, and unindexed.\n
+        <b>Note: </b>Set items are unchangeable, but you can remove items and add new items.\n
+        <b>Create a Set:</b>\n
+        Sets are written with curly brackets.\n
+        <b>Example</b>\n
+
+        fruits_set= {"\"apple"\", "\"banana"\", "\"cherry"\"}\n
+        print(fruits_set)\n
+        <b>Note: </b>Sets are unordered, so you cannot be sure in which order the items will appear.\n
+
+        <b>Set Items</b>\n
+        Set items are unordered, unchangeable, and do not allow duplicate values.\n
+        <b>Unordered</b>\n
+        Unordered means that the items in a set do not have a defined order.\n
+        Set items can appear in a different order every time you use them, and cannot be referred to by index or key.\n
+        <b>Unchangeable</b>\n
+        Set items are unchangeable, meaning that we cannot change the items after the set has been created.\n
+        Once a set is created, you cannot change its items, but you can remove items and add new items.\n
+        <b>Duplicates Not Allowed</b>\n
+        Sets cannot have two items with the same value.\n
+        <b>Example</b>\n
+        Duplicate values will be ignored:\n
+        fruits_set= {"\"apple"\", "\"banana"\", "\"cherry"\","\"apple"\"}\n
+        print(fruits_set)\n
+        <b>Length of a Set</b>\n
+        To determine how many items a set has, use the <b>len()</b> method.\n
+        <b>Example</b>\n
+        Get the number of items in a set:\n
+        fruits_set= {"\"apple"\", "\"banana"\", "\"cherry"\"}\n
+        print(len(fruits_set))\n\n
+
+        <b>Access Items</b>\n
+        We cannot access items in a set by referring to an index or a key.\n
+        But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.\n
+        <b>Example</b>\n
+        Loop through the set, and print the values:\n
+        fruits_set= {"\"apple"\", "\"banana"\", "\"cherry"\"}\n
+        for x in fruits_set:\n
+        \u00A0\u00A0\u00A0\u00A0print(x)\n\n
+
+
+    </string>
+    <string name="py_dictionary">Python Dictionary</string>
+    <string name="python_dictionary">
+        Dictionaries are used to store data values in key:value pairs.\n
+        A dictionary is a collection which is ordered*, changeable and do not allow duplicates.\n
+        <b>NOTE: </b>As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.\n
+        <b>Create a dictionary</b>\n
+        Dictionaries are written with curly brackets, and have keys and values:\n
+        <b>Example:</b>\n
+        my_dict = {"\"brand"\": "\"Ford"\", "\"model"\": "\"Mustang"\", "\"year"\": 1964}\n
+        print(my_dict)\n\n
+
+        <b>Dictionary Items</b>\n
+        Dictionary items are ordered, changeable, and does not allow duplicates.\n
+        Dictionary items are presented in key:value pairs, and can be referred to by using the key name.\n
+        <b>Example</b>\n
+        Print the "brand" value of the dictionary:\n
+        my_dict = {"\"brand"\": "\"Ford"\", "\"model"\": "\"Mustang"\", "\"year"\": 1964}\n\n
+        print(my_dict["brand"])\n\n
+
+        <b>Ordered or Unordered?</b>\n
+        <b>NOTE: </b>As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.\n
+        When we say that dictionaries are ordered, it means that the items have a defined order, and that order will not change.\n
+        Unordered means that the items does not have a defined order, you cannot refer to an item by using an index.\n
+
+        <b>Changeable</b>\n
+        Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.\n
+        <b>Duplicates Not Allowed</b>\n
+        Dictionaries cannot have two items with the same key.\n
+        But Duplicate values will overwrite existing values.\n
+        <b>Example</b>\n
+        my_dict = {"\"brand"\": "\"Ford"\", "\"model"\": "\"Mustang"\", "\"year"\": 1964, "\"year"\": 2020}\n
+        print(my_dict)\n\n
+
+        <b>Dictionary Length</b>\n
+        To determine how many items a dictionary has, use the len() function:\n
+        <b>Example</b>\n
+        Print the total number of items in the dictionary:\n
+        my_dict = {"\"brand"\": "\"Ford"\", "\"model"\": "\"Mustang"\", "\"year"\": 1964}\n
+        print(len(my_dict))\n\n
+
+        <b>Access Dictionary Items</b>\n
+        You can access the items of a dictionary by referring to its key name, inside square brackets:\n
+        <b>Example</b>\n
+        Get the value of the "\"model"\" key:\n
+        my_dict = {"\"brand"\": "\"Ford"\", "\"model"\": "\"Mustang"\", "\"year"\": 1964}\n
+        x = my_dict[""\"model"\"]\n
+        print(x)\n\n
+
+        There is also a method called get() that will give you the same result:\n
+        <b>Example</b>\n
+        Get the value of the "\"model"\"key:\n
+        my_dict = {"\"brand"\": "\"Ford"\", "\"model"\": "\"Mustang"\", "\"year"\": 1964}\n
+        x = my_dict.get("\"model"\")\n
+        print(x)\n\n
+
+        <b>NOTE:</b> We will learn about Dictionary in the advance level.\n
+
+    </string>
+
+    <string name="py_statement">Conditional statement</string>
+    <string name="py_conditional_statement">
+        Conditional statements are also called decision-making statements.\n
+        We use those statements while we want to execute a block of code when the given condition is true or false.\n
+        <b>if statement:</b>\n
+        Python conditions can be used in several ways, most commonly in "\"if statements"\" and loops.\n
+        An "\"if statements"\" is written by using the if keyword.\n
+        <b>Example</b>\n
+        If statement:\n
+        a = 33b = 200\n
+        if b > a:\n
+        \u00A0\u00A0\u00A0\u00A0print("\"b is greater than a"\")\n
+        <b>Explain</b>\n
+        In the above example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a. As a is 33, and b is 200, we know that 200 is greater than 33, and so we print to screen that "\"b is greater than a"\".
+
+        <b>Indentation</b>\n
+        Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming languages often use curly-brackets for this purpose.\n
+        <b>Example</b>\n
+        If statement, without indentation (will raise an error):\n
+        a = 33\n
+        b = 200\n
+        if b > a:\n
+        print("b is greater than a") # you will get an error\n\n
+
+        <b>Elif</b>\n
+        The elif keyword is pythons way of saying "\"if the previous conditions were not true, then try this condition"\".\n
+        <b>Example</b>\n
+        a = 33\n
+        b = 33\n
+        if b > a:\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"b is greater than a"\")\n
+        elif a == b:\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"a and b are equal"\")\n
+        <b>Explain:</b>\n
+        In the above example a is equal to b, so the first condition is not true, but the elif condition is true, so we print to screen that "\"a and b are equal"\". \n\n
+
+        <b>Else</b>\n
+        The else keyword catches anything which is not caught by the preceding conditions.\n
+        <b>Example</b>\n
+        a = 200\n
+        b = 33\n
+        if b > a:\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"b is greater than a"\")\n
+        elif a == b:\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"a and b are equal"\")\n
+        else:\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"a is greater than b"\")\n\n
+        <b>Explain</b>\n
+        In this example a is greater than b, so the first condition is not true, also the elif condition is not true, so we go to the else condition and print to screen that "\"a is greater than b"\".\n
+        <b>NOTE: </b> We will learn more about conditional statement in later.\n
+
+    </string>
+
+    <string name="py_loop">Python loop</string>
+    <string name="python_loop">
+        Python has two primitive loop commands:\n
+        1. while loops\n
+        2. for loops\n
+
+
+        <b>while Loop</b>\n
+        With the while loop we can execute a set of statements as long as a condition is true.\n
+        <b>Example</b>\n
+        Print i as long as i is less than 10:\n
+        i = 1\n
+        while i \uFE64 10:\n
+        \u00A0\u00A0\u00A0\u00A0 print(i)\n
+        \u00A0\u00A0\u00A0\u00A0 i += 1 \n\n
+        The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.\n\n
+
+        <b>break Statement</b>\n
+        With the break statement we can stop the loop even if the while condition is true:\n
+        <b>Example</b>\n
+        Exit the loop when i is 3:\n
+        i = 1\n
+        while i \uFE64 6:\n
+        \u00A0\u00A0\u00A0\u00A0 print(i)\n
+        \u00A0\u00A0\u00A0\u00A0if i == 3:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break\n
+        \u00A0\u00A0\u00A0\u00A0 i += 1\n\n
+
+        <b>continue Statement</b>
+        With the continue statement we can stop the current iteration, and continue with the next:\n
+        <b>Example</b>\n
+        Continue to the next iteration if i is 3:\n
+        i = 0\n
+        while i \uFE64 6:\n
+        \u00A0\u00A0\u00A0\u00A0 i += 1\n
+        \u00A0\u00A0\u00A0\u00A0 if i == 3:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 continue\n
+       \u00A0\u00A0\u00A0\u00A0 print(i)\n\n
+
+        <b>else Statement</b>\n
+        With the else statement we can run a block of code once when the condition no longer is true:\n
+        <b>Example</b>\n
+        Print a message once the condition is false:\n
+        i = 1\n
+        while i \uFE64 6:\n
+        \u00A0\u00A0\u00A0\u00A0 print(i)\n
+        \u00A0\u00A0\u00A0\u00A0 i += 1\n
+        else:\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"i is no longer less than 6"\")\n\n
+
+
+
+        <b>For Loops</b>\n
+        We have already used <b>for loop</b>\n
+        A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).\n
+        This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages.\n
+        With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.\n
+
+        <b>Example</b>\n
+        Print each fruit in a fruit list:\n
+        fruits = ["\"apple"\", "\"banana"\", "\"cherry"\"]\n
+        for x in fruits:\n
+        \u00A0\u00A0\u00A0\u00A0 print(x)\n\n
+        <b>NOTE:</b>\n
+        The for loop does not require an indexing variable to set beforehand.\n
+        Even strings are iterable objects, they contain a sequence of characters:\n
+        <b>Example</b>\n
+        Loop through the letters in the word "\"banana"\": \n
+        for x in "\"banana"\":\n
+        \u00A0\u00A0\u00A0\u00A0 print(x)\n\n
+
+        <b>break Statement</b>\n
+        With the break statement we can stop the loop before it has looped through all the items:\n
+        <b>Example</b>\n
+        Exit the loop when x is "\"banana"\":\n
+        fruits = ["\"apple"\", "\"banana"\", "\"cherry"\"]\n
+        for x in fruits:\n
+        \u00A0\u00A0\u00A0\u00A0 print(x)\n
+        \u00A0\u00A0\u00A0\u00A0 if x == "\"banana"\":\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 break\n\n
+
+        <b>continue Statement</b>\n
+        With the continue statement we can stop the current iteration of the loop, and continue with the next:\n
+        <b>Example</b>\n
+        Do not print banana:\n
+        fruits = ["\"apple"\", "\"banana"\", "\"cherry"\"]\n
+        for x in fruits:\n
+        \u00A0\u00A0\u00A0\u00A0 if x == "\"banana"\":\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 continue\n
+        \u00A0\u00A0\u00A0\u00A0 print(x)\n\n
+
+        <b>range() Function</b>\n
+        To loop through a set of code a specified number of times, we can use the <b>range()</b> function\n
+        The <b>range()</b> function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.\n
+        <b>Example</b>\n
+        Using the range() function:\n
+        for x in range(6):\n
+        \u00A0\u00A0\u00A0\u00A0 print(x)\n
+        <b>NOTE: </b>the range(6) is not the values of 0 to 6, but the values 0 to 5.\n\n
+
+        The range() function defaults to 0 as a starting value, however it is possible to specify the starting value by adding a parameter: range(2, 6), which means values from 2 to 6 (but not including 6):\n
+        <b>Example</b>\n
+        Using the start parameter:\n
+        for x in range(2, 6):\n
+        \u00A0\u00A0\u00A0\u00A0 print(x)\n\n
+
+        The range() function defaults to increment the sequence by 1, however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3):\n
+        <b>Example</b>\n
+        Increment the sequence with 2 (default is 1):\n
+        for x in range(2, 30, 2):\n
+        \u00A0\u00A0\u00A0\u00A0 print(x)\n\n
+
+    </string>
+
+    <string name="py_function">Python Functions</string>
+    <string name="python_function">
+        A function is a block of code which only runs when it is called.\n
+        we can pass data, known as parameters, into a function.\n
+        A function can return data as a result.\n\n
+
+        <b>Creating a Function</b>\n
+        In Python a function is defined using the def keyword:\n
+        <b>Example</b>\n
+        def my_function():\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"Hello from a function"\")\n\n
+
+
+        <b>Calling a Function</b>\n
+        To call a function, use the function name followed by parenthesis:\n
+        <b>Example</b>\n
+        def my_function():\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"Hello from a function"\")\n\n
+
+        my_function()\n\n
+
+        <b>Arguments</b>\n
+        Information can be passed into functions as arguments.\n
+        Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.\n
+        The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:\n
+        <b>Example</b>\n
+        def my_function(fname):\n
+        \u00A0\u00A0\u00A0\u00A0 print(fname + "\" Refsnes"\")\n\n\n
+
+        my_function("\"Emil"\")\n
+        my_function("\"Tobias"\")\n
+        my_function("\"Linus"\")\n\n
+
+        <b>Number of Arguments</b>\n
+        By default, a function must be called with the correct number of arguments. Meaning that if your function expects 2 arguments, you have to call the function with 2 arguments, not more, and not less.\n
+        <b>Example</b>\n
+        This function expects 2 arguments, and gets 2 arguments:\n
+        def my_function(fname, lname):\n
+        \u00A0\u00A0\u00A0\u00A0 print(fname + "\" " \"+ lname)\n\n
+
+        my_function("\"Emil"\", "\"Refsnes"\")\n\n
+
+
+        <b>NOTE: </b> If you try to call the function with 1 or 3 arguments, you will get an error:\n
+        <b>Example</b>\n
+        This function expects 2 arguments, but gets only 1:\n
+
+        def my_function(fname, lname):\n
+        \u00A0\u00A0\u00A0\u00A0 print(fname + "\" "\" + lname)\n\n
+        my_function("\"Emil"\")\n
+        // In the above program will get an error.\n
+
+        <b>Arbitrary Arguments, *args</b>\n
+        If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.\n
+        This way the function will receive a tuple of arguments, and can access the items accordingly:\n
+        <b>Example</b>\n
+        If the number of arguments is unknown, add a * before the parameter name:\n
+        def my_function(*kids):\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"The youngest child is "\"+ kids[2])\n\n
+        my_function("\"Emil"\", "\"Tobias"\", "\"Linus"\")\n\n
+
+        <b>Arbitrary Keyword,**kwargs</b>\n
+        If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition.\n
+        This way the function will receive a dictionary of arguments, and can access the items accordingly:\n
+        If the number of keyword arguments is unknown, add a double ** before the parameter name:\n
+        <b>Example</b>\n
+        def my_function(**kid):\n
+        \u00A0\u00A0\u00A0\u00A0 print("\"His last name is "\" + kid["\"lname"\"])\n\n
+
+        my_function(fname = "\"Tobias"\", lname = "\"Refsnes"\")\n\n
+
+        <b>Return Values</b>\n
+        To let a function return a value, use the return statement:\n
+        <b>Example</b>\n
+        def my_function(x):\n
+       \u00A0\u00A0\u00A0\u00A0 return 5 * x\n\n\n
+
+        print(my_function(3))\n
+        print(my_function(5))\n
+        print(my_function(9))\n\n\n
+
+       <b>Recursion</b>
+        Python also accepts function recursion, which means a defined function can call itself.\n
+        Recursion is a common mathematical and programming concept. It means that a function calls itself. This has the benefit of meaning that you can loop through data to reach a result.\n
+        The developer should be very careful with recursion as it can be quite easy to slip into writing a function which never terminates, or one that uses excess amounts of memory or processor power. However, when written correctly recursion can be a very efficient and mathematically-elegant approach to programming.\n
+        In this example, tri_recursion() is a function that we have defined to call itself ("recurse"). We use the k variable as the data, which decrements (-1) every time we recurse. The recursion ends when the condition is not greater than 0 (i.e. when it is 0).\n
+        To a new developer it can take some time to work out how exactly this works, best way to find out is by testing and modifying it.\n
+        <b>Example:</b>\n
+        def tri_recursion(k):\n
+        \u00A0\u00A0\u00A0\u00A0 if(k > 0):\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 result = k + tri_recursion(k - 1)\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 print(result)\n
+        \u00A0\u00A0\u00A0\u00A0 else:\n
+        \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 result = 0\n
+        \u00A0\u00A0\u00A0\u00A0 return result\n
+        print("\"Recursion Example Results"\")\n
+        tri_recursion(6)\n\n
+
+
+
+    </string>
+
+
+
+
+<!--    Python Programming End-->
+
+<!--    Database start-->
+    <string name="db_title">Database</string>
+    <string name="database">
+        SQL is a standard language for storing, manipulating and retrieving data in databases.\n
+        Our SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.\n
+        SQL is a standard language for accessing and manipulating databases.\n
+        <b>What is SQL?</b>\n
+        1. SQL stands for Structured Query Language\n
+        2. SQL lets you access and manipulate databases\n
+        3. SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987\n\n
+
+        <b>What Can SQL do?</b>\n
+        1. SQL can execute queries against a database\n
+        2. SQL can retrieve data from a database\n
+        3. SQL can insert records in a database\n
+        4. SQL can update records in a database\n
+        5. SQL can delete records from a database\n
+        6. SQL can create new databases\n
+        7. SQL can create new tables in a database\n
+        8. SQL can create stored procedures in a database\n
+        9. SQL can create views in a database\n
+        10. SQL can set permissions on tables, procedures, and views\n
+
+        <b>Note:</b> Most of the SQL database programs also have their own proprietary extensions in addition to the SQL standard!\n\n
+
+        <b>Using SQL in Your Web Site</b>\n
+        To build a web site that shows data from a database, you will need:\n
+
+        An RDBMS database program (i.e. MS Access, SQL Server, MySQL)\n
+        To use a server-side scripting language, like PHP or ASP\n
+        To use SQL to get the data you want\n
+        To use HTML / CSS to style the page\n\n
+
+
+    </string>
+    <string name="select">SQL SELECT Statement</string>
+    <string name="select_statement">
+        The SELECT statement is used to select data from a database.\n
+        The data returned is stored in a result table, called the result-set.\n
+        <b>SELECT Syntax</b>\n
+        SELECT column1, column2,\n
+        FROM table_name;\n\n
+
+        Here, column1, column2, are the field names of the table you want to select data from. If you want to select all the fields available in the table, use the following syntax:\n
+        SELECT * FROM table_name;\n
+
+
+
+    </string>
+    <string name="distinct">DISTINCT</string>
+    <string name="db_distinct">
+        The <b>SELECT DISTINCT</b> statement is used to return only distinct (different) values.Cannot show any duplicate value\n
+        Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values\n
+        <b>Syntax</b>\n
+        SELECT DISTINCT column1, column2,\n
+        FROM table_name;\n\n
+
+        <b>Without DISTINCT</b>\n
+        Now, consider you have a table name "\"Customer"\". and a column name is "\"Country"\". \n
+        The following SQL statement selects all (including the duplicates) values from the "\"Country"\" column in the "\"Customers"\" table:\n
+        <b>Example</b>\n
+        SELECT Country FROM Customers;\n
+
+        <b>Note: </b> Without using <b>distinct </b>, it will show you all country value with duplicate value.
+
+        <b>SELECT DISTINCT</b>\n
+        The following SQL statement selects only the DISTINCT values from the "\"Country"\" column in the "\"Customers"\" table:\n
+        <b>Example</b>\n
+        SELECT DISTINCT Country FROM Customers;\n\n
+
+    </string>
+    <string name="where">SQL Where clause</string>
+    <string name="where_clause">
+        The <b>WHERE</b> clause is used to filter records.\n
+        It is used to extract only those records that fulfill a specified condition.\n
+        <b>Syntax</b>\n
+        SELECT column1, column2\n
+        FROM table_name\n
+        WHERE condition;\n\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE Country="'Mexico'";\n
+        The following SQL statement selects all the customers from the country "\"Mexico"\", in the "\"Customers"\" table:\n
+        <b>NOTE: </b>SQL requires single quotes around text values (most database systems will also allow double quotes).\n
+
+        <b>Numeric Fields</b>\n
+        However, numeric fields should not be enclosed in quotes:\n
+        SELECT * FROM Customers\n
+        WHERE CustomerID=1;\n
+
+        <b>NOTE: </b> The asterisk * denote that all element from a database table.\n
+
+
+
+
+    </string>
+
+    <string name="logical_sql">AND, OR and NOT Operators</string>
+    <string name="sql_operators">
+        <b>The SQL <b>AND</b>, <b>OR</b> and <b>NOT</b> Operators</b>\n
+        The <b>WHERE</b> clause can be combined with <b>AND</b>, <b>OR</b>, and <b>NOT</b> operators.\n
+        The <b>AND</b> and <b>OR</b> operators are used to filter records based on more than one condition:\n
+        The <b>AND</b> operator displays a record if all the conditions separated by <b>AND</b> are TRUE.\n
+        The <b>OR</b> operator displays a record if any of the conditions separated by <b>OR</b> is TRUE.\n
+        The <b>NOT</b> operator displays a record if the condition(s) is <b>NOT</b> TRUE.\n\n
+
+
+        <b>AND Syntax</b>
+        SELECT column1, column2\n
+        FROM table_name\n
+        WHERE condition1 AND condition2 AND condition3;\n
+
+        <b>AND Example</b>\n
+        The following SQL statement selects all fields from "\"Customers"\" where country is "\"Germany"\" AND city is "\"Berlin"\":\n
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE Country=\'Germany\' AND City=\'Berlin\';\n\n
+
+        <b>OR Syntax</b>\n
+        SELECT column1, column2\n
+        FROM table_name\n
+        WHERE condition1 OR condition2 OR condition3;\n
+
+        <b>OR Example</b>
+        The following SQL statement selects all fields from "\"Customers"\" where city is "\"Berlin"\" OR "\"München"\":\n
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE City=\'Berlin\' OR City=\'München\';\n\n
+        The following SQL statement selects all fields from "\"Customers"\" where country is "\"Germany"\" OR "\"Spain"\":
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE Country=\'Germany\' OR Country=\'Spain\';\n\n
+
+        <b>NOT Syntax</b>\n
+        SELECT column1, column2\n
+        FROM table_name\n
+        WHERE NOT condition;\n\n
+        <b>NOT Example</b>\n
+        The following SQL statement selects all fields from "\"Customers"\" where country is NOT "\"Germany"\":\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE NOT Country="'Germany'";\n\n
+
+        <b>Combining AND, OR and NOT</b>\n
+        We can also combine the <b>AND</b>, <b>OR</b> and <b>NOT</b> operators.\n
+        The following SQL statement selects all fields from "\"Customers"\" where country is "\"Germany"\" AND city must be "\"Berlin"\" OR "\"München"\" (use parenthesis to form complex expressions):\n\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE Country="'Germany'" AND (City="'Berlin'" OR City="'München'");\n\n
+
+        Another Example:\n
+        The following SQL statement selects all fields from "\"Customers"\" where country is NOT "\"Germany"\" and NOT "\"USA"\":\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE NOT Country="'Germany'" AND NOT Country="'USA'";\n
+
+
+    </string>
+    <string name="order_by">ORDER BY</string>
+    <string name="sql_order_by">
+
+        The <b>ORDER BY</b> keyword is used to sort the result-set in ascending or descending order.\n
+        The <b>ORDER BY</b> keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.\n
+
+        <b>ORDER BY Syntax</b>\n
+        SELECT column1, column2\n
+        FROM table_name\n
+        ORDER BY column1, column2 (ASC|DESC);\n\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        ORDER BY Country;\n
+        The following SQL statement selects all customers from the "\"Customers"\" table, sorted by the "\"Country"\" column:\n
+
+
+        <b>ORDER BY DESC</b>\n
+        The following SQL statement selects all customers from the "\"Customers"\" table, sorted DESCENDING by the "\"Country"\" column:\n
+        <b>Example</b>\n
+        SELECT * FROM Customers ORDER BY Country DESC;\n\n
+
+        <b>Several Columns</b>\n
+        The following SQL statement selects all customers from the "\"Customers"\" table, sorted by the "\"Country"\" and the "\"CustomerName"\" column. This means that it orders by Country, but if some rows have the same Country, it orders them by CustomerName:\n
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        ORDER BY Country, CustomerName;\n\n
+        <b>NOTE: </b>When we display values from several columns then we have separate both column using comma(,)\n
+
+
+        <b>Several Columns with ASE &amp; DESC</b>\n
+        The following SQL statement selects all customers from the "Customers" table, sorted ascending by the "\"Country"\" and descending by the "\"CustomerName"\" column:\n
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        ORDER BY Country ASC, CustomerName DESC;\n\n
+        
+        
+    </string>
+    <string name="insert_into">INSERT INTO</string>
+    <string name="sql_insert_into">
+        The <b>INSERT INTO</b> statement is used to insert new records in a table.\n
+
+        <b>INSERT INTO Syntax</b>\n
+        It is possible to write the <b>INSERT INTO</b> statement in two ways:\n
+        1. Specify both the column names and the values to be inserted:\n\n
+
+        INSERT INTO table_name (column1, column2, column3)\n
+        VALUES (value1, value2, value3);\n\n
+
+        2. If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table. Here, the <b>INSERT INTO</b> syntax would be as follows:\n
+        INSERT INTO table_name\n
+        VALUES (value1, value2, value3);\n\n
+
+        <b>Insert Data Only in Specified Columns</b>\n
+        It is also possible to only insert data in specific columns.\n
+        The following SQL statement will insert a new record, but only insert data in the "\"CustomerName"\", "\"City"\", and "\"Country"\" columns (CustomerID will be updated automatically):\n
+        <b>Example</b>\n
+        INSERT INTO Customers (CustomerName, City, Country)\n
+        VALUES ("'Cardinal'", "'Stavanger'", "'Norway'");\n\n
+
+
+
+    </string>
+    <string name="update">UPDATE</string>
+    <string name="sql_update">
+        The <b>UPDATE</b> statement is used to modify the existing records in a table.\n
+
+        UPDATE Syntax\n
+        UPDATE table_name\n
+        SET column1 = value1, column2 = value2\n
+        WHERE condition;\n\n
+
+        <b>Note:</b> Be careful when updating records in a table! Notice the WHERE clause in the <b>UPDATE</b> statement. The WHERE clause specifies which record(s) that should be updated. If you omit the WHERE clause, all records in the table will be updated!\n
+        <b>UPDATE Table</b>\n
+        The following SQL statement updates the first customer (CustomerID = 1) with a new contact person and a new city.\n
+        <b>Example</b>\n
+        UPDATE Customers\n
+        SET ContactName = "'Alfred Schmidt'", City= "'Frankfurt'"\n
+        WHERE CustomerID = 1;\n\n
+
+        <b>UPDATE Multiple</b>\n
+        We can also update multiple rows and columns in a same time\n
+        It is the WHERE clause that determines how many records will be updated.\n
+        The following SQL statement will update the ContactName to "\"Juan"\" for all records where country is "\"Mexico"\":\n
+
+        <b>Example</b>\n
+        UPDATE Customers\n
+        SET ContactName="'Juan'"\n
+        WHERE Country="'Mexico'";\n
+
+    </string>
+
+    <string name="delete">DELETE</string>
+    <string name="sql_delete">
+        The <b>DELETE</b> statement is used to delete existing records in a table.
+
+        <b>DELETE Syntax</b>
+        DELETE FROM table_name WHERE condition;\n
+
+        <b>Note: </b>Be careful when deleting records in a table! Notice the <b>WHERE</b> clause in the <b>DELETE</b> statement. The <b>WHERE</b> clause specifies which record(s) should be deleted. If you omit the <b>WHERE</b> clause, all records in the table will be deleted!\n
+
+
+    </string>
+
+    <string name="top_limit">TOP-LIMIT</string>
+    <string name="sql_top_limit">
+        <b>Note: </b> Not all database systems support the <b>SELECT TOP</b> clause. MySQL supports the <b>LIMIT</b> clause to select a limited number of records\n
+        <b>MySQL Syntax:</b>
+
+        SELECT column_name(s)\n
+        FROM table_name\n
+        WHERE condition\n
+        LIMIT number;\n\n
+        <b>Example</b>\n
+        SELECT TOP 3 * FROM Customers;\n
+        The following SQL statement selects the first three records from the "\"Customers"\" table (for SQL Server/MS Access):\n\n
+
+        The following SQL statement shows the equivalent example for MySQL:\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        LIMIT 3;\n\n
+
+        <b>ADD a WHERE</b>\n
+        The following SQL statement selects the first three records from the "\"Customers"\" table, where the country is "\"Germany"\" (for SQL Server/MS Access):\n
+
+        <b>Example</b>\n
+        SELECT TOP 3 * FROM Customers\n
+        WHERE Country="'Germany'";\n\n
+
+        The following SQL statement shows the equivalent example for MySQL:\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE Country="'Germany'"\n
+        LIMIT 3;\n\n
+
+    </string>
+
+    <string name="min_max">MIN &amp; MAX</string>
+    <string name="sql_min_max">
+        The <b>MIN()</b> function returns the smallest value of the selected column.\n
+        The <b>MAX()</b> function returns the largest value of the selected column.\n
+
+        <b>MIN() Syntax</b>\n
+        SELECT MIN(column_name)\n
+        FROM table_name\n
+        WHERE condition;\n\n
+
+        <b>MIN() Example</b>\n
+        The following SQL statement finds the price of the cheapest product:\n
+
+        <b>Example</b>\n
+        SELECT MIN(Price) AS SmallestPrice\n
+        FROM Products;\n\n
+
+        <b>MAX() Syntax</b>\n
+        SELECT MAX(column_name)\n
+        FROM table_name\n
+        WHERE condition;\n\n
+
+        <b>MAX() Example</b>
+        The following SQL statement finds the price of the most expensive product:\n
+
+        <b>Example</b>\n
+        SELECT MAX(Price) AS LargestPrice\n
+        FROM Products;\n
+
+
+
+    </string>
+
+    <string name="count_avg_sum">COUNT,AVG and SUM</string>
+    <string name="sql_count_avg_sum">
+
+        <b>Count() Function</b>
+
+        The <b>COUNT()</b> function returns the number of rows that matches a specified criterion.\n
+
+        <b>COUNT() Syntax</b>\n
+        SELECT COUNT(column_name)\n
+        FROM table_name\n
+        WHERE condition;\n\n
+
+        <b>Example</b>\n
+        The following SQL statement finds the number of products:\n
+
+        SELECT COUNT(ProductID)\n
+        FROM Products;\n\n
+
+        <b>AVG() Function</b>\n
+        The <b>AVG()</b> function returns the average value of a numeric column. \n
+
+        <b>AVG() Syntax</b>\n
+        SELECT AVG(column_name)\n
+        FROM table_name\n
+        WHERE condition;\n\n
+
+        <b> Example</b>\n
+        The following SQL statement finds the average price of all products:\n
+        SELECT AVG(Price) FROM Products;\n\n
+
+        <b>SUM() Function</b>\n
+        The SUM() function returns the total sum of a numeric column.\n
+        <b>SUM() Syntax</b>\n
+        SELECT SUM(column_name)\n
+        FROM table_name\n
+        WHERE condition;\n\n
+
+        <b>Example</b>\n
+        The following SQL statement finds the sum of the "\"Quantity"\" fields in the "\"OrderDetails"\" table:\n
+
+        SELECT SUM(Quantity)\n
+        FROM OrderDetails;\n\n
+
+
+
+
+    </string>
+
+    <string name="like_operator">LIKE Operator</string>
+    <string name="sql_like_operator">
+        The <b>LIKE</b> operator is used in a <b>WHERE</b> clause to search for a specified pattern in a column.\n
+        There are two wildcards often used in conjunction with the <b>LIKE</b> operator:\n
+        The percent sign (%) represents zero, one, or multiple characters\n
+        The underscore sign (_) represents one, single character\n\n
+        <b>Note:</b> MS Access uses an asterisk (*) instead of the percent sign (%), and a question mark (?) instead of the underscore (_).\n
+        <b>LIKE Syntax</b>\n
+        SELECT column1, column2\n
+        FROM table_name\n
+        WHERE columnN LIKE pattern;\n\n
+
+        The following SQL statement selects all customers with a CustomerName starting with "\"a"\":\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE CustomerName LIKE "'a%'";\n\n
+
+        The following SQL statement selects all customers with a CustomerName that starts with "\"a"\" and are at least 3 characters in length:\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE CustomerName LIKE "'a__%'";\n\n
+
+        The following SQL statement selects all customers with a ContactName that starts with "\"a"\" and ends with "\"o"\":\n
+        Example\n
+        SELECT * FROM Customers\n
+        WHERE ContactName LIKE "'a%o'";\n\n
+
+        The following SQL statement selects all customers with a CustomerName that does NOT start with "\"a"\":\n
+
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE CustomerName NOT LIKE "'a%'";\n
+
+
+    </string>
+
+
+    <string name="in_operator">IN Operators</string>
+    <string name="sql_in_operator">
+        The <b>IN</b> operator allows you to specify multiple values in a <b>WHERE</b> clause.\n
+        The <b>IN</b> operator is a shorthand for multiple <b>OR</b> conditions.\n
+
+        <b>IN Syntax</b>\n
+        SELECT column_name(s)\n
+        FROM table_name\n
+        WHERE column_name IN (value1, value2);\n\n
+
+        The following SQL statement selects all customers that are located in "\"Germany"\", "\"France"\" or "\"UK"\":
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE Country IN ("'Germany'", "'France'", "'UK'");\n\n
+
+        The following SQL statement selects all customers that are from the same countries as the suppliers:\n
+        <b>Example</b>\n
+        SELECT * FROM Customers\n
+        WHERE Country IN (SELECT Country FROM Suppliers);\n
+
+    </string>
+
+    <string name="between">BETWEEN</string>
+    <string name="sql_between">
+        The <b>BETWEEN</b> operator selects values within a given range. The values can be numbers, text, or dates.\n
+        The <b>BETWEEN</b> operator is inclusive: begin and end values are included.\n
+        BETWEEN Syntax\n
+        SELECT column_name(s)\n
+        FROM table_name\n
+        WHERE column_name BETWEEN value1 AND value2;\n\n
+
+        <b>Example</b>\n
+        The following SQL statement selects all products with a price between 10 and 20:\n
+
+        SELECT * FROM Products\n
+        WHERE Price BETWEEN 10 AND 20;\n\n
+
+        The following SQL statement selects all products with a price between 10 and 20. In addition; do not show products with a CategoryID of 1,2, or 3:\n
+        <b>Example</b>\n
+        SELECT * FROM Products\n
+        WHERE Price BETWEEN 10 AND 20\n
+        AND CategoryID NOT IN (1,2,3);\n\n
+
+        <b>NOT BETWEEN</b>\n
+        To display the products outside the range of the previous example, use <b>NOT BETWEEN:</b>\n
+
+        <b>Example</b>\n
+        SELECT * FROM Products\n
+        WHERE Price NOT BETWEEN 10 AND 20;\n
+
+    </string>
+
+    <string name="join">SQL JOIN</string>
+    <string name="sql_join">
+        A JOIN clause is used to combine rows from two or more tables, based on a related column between them.\n
+        Suppose We have two tables. Table 1 called "\"Order"\" and table 2 called "\"Customer"\". And both table has a same column that is "\"CustomerId"\".\n
+        The relationship between the two tables is the "\"CustomerID"\" column.\n
+        Then, we can create the following SQL statement  that selects records that have matching values in both tables:\n\n
+
+        <b>Example</b>\n
+        SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate\n
+        FROM Orders\n
+        INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;\n
+
+        <b>Types of SQL joins</b>\n
+        Here are the different types of the <b>JOINs</b> in SQL:\n
+
+        <b>(INNER) JOIN:</b> Returns records that have matching values in both tables\n
+        <b>LEFT (OUTER) JOIN:</b> Returns all records from the left table, and the matched records from the right table\n
+        <b>RIGHT (OUTER) JOIN:</b> Returns all records from the right table, and the matched records from the left table\n
+        <b>FULL (OUTER) JOIN:</b> Returns all records when there is a match in either left or right table\n\n
+
+
+    </string>
+
+    <string name="inner_join">INNER JOIN</string>
+    <string name="sql_inner_join">
+        The <b>INNER JOIN</b> keyword selects records that have matching values in both tables.\n
+
+        <b>INNER JOIN Syntax</b>
+        SELECT column_name(s)\n
+        FROM table1\n
+        INNER JOIN table2\n
+        ON table1.column_name = table2.column_name;\n
+
+        <b>INNER JOIN Example</b>\n
+        The following SQL statement selects all orders with customer information:\n
+        <b>Example</b>\n
+        SELECT Orders.OrderID, Customers.CustomerName\n
+        FROM Orders\n
+        INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;\n\n
+
+        <b>Note:</b> The <b>INNER JOIN </b>keyword selects all rows from both tables as long as there is a match between the columns. If there are records in the "\"Orders"\" table that do not have matches in "\"Customers"\", these orders will not be shown!\n\n
+
+        <b>JOIN Three Tables</b>\n
+        The following SQL statement selects all orders with customer and shipper information:\n\n
+
+        <b>Example</b>\n
+        SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName\n
+        FROM ((Orders\n
+        INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)\n
+        INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);\n\n
+
+
+    </string>
+    <string name="left_join"> LEFT JOIN</string>
+    <string name="sql_left_join">
+        The <b>LEFT JOIN</b> keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.\n
+
+        <b>LEFT JOIN Syntax</b>\n
+        SELECT column_name(s)\n
+        FROM table1\n
+        LEFT JOIN table2\n
+        ON table1.column_name = table2.column_name;\n\n
+
+        <b>Note: </b>In some databases LEFT JOIN is called <b>LEFT OUTER JOIN</b>.\n
+
+        <b>Example</b> \n
+        The following SQL statement will select all customers, and any orders they might have:\n
+
+        SELECT Customers.CustomerName, Orders.OrderID\n
+        FROM Customers\n
+        LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID\n
+        ORDER BY Customers.CustomerName;\n\n
+        <b>Note: </b> The <b>LEFT JOIN</b> keyword returns all records from the left table (Customers), even if there are no matches in the right table (Orders).\n\n
+
+
+    </string>
+
+    <string name="right_join">RIGHT JOIN</string>
+    <string name="sql_right_join">
+        The <b>RIGHT JOIN</b> keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
+
+        <b>RIGHT JOIN Syntax</b>\n
+        SELECT column_name(s)\n
+        FROM table1\n
+        RIGHT JOIN table2\n
+        ON table1.column_name = table2.column_name;\n
+        <b>Note: </b>In some databases <b>RIGHT JOIN</b> is called <b>RIGHT OUTER JOIN</b>.\n\n
+        <b>RIGHT JOIN Example</b>\n
+        The following SQL statement will return all employees, and any orders they might have placed:\n
+
+        SELECT Orders.OrderID, Employees.LastName, Employees.FirstName\n
+        FROM Orders\n
+        RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID\n
+        ORDER BY Orders.OrderID;\n
+        <b>Note: </b>The RIGHT JOIN keyword returns all records from the right table (Employees), even if there are no matches in the left table (Orders).\n
+
+
+
+    </string>
+
+    <string name="full_join">FULL JOIN</string>
+    <string name="sql_full_join">
+        The <b>FULL OUTER JOIN</b> keyword returns all records when there is a match in left (table1) or right (table2) table records.\n
+        <b>Tip:</b> FULL OUTER JOIN and FULL JOIN are the same.\n
+        <b>FULL JOIN Syntax</b>\n
+        SELECT column_name(s)\n
+        FROM table1\n
+        FULL  JOIN table2\n
+        ON table1.column_name = table2.column_name\n
+        WHERE condition;\n
+        <b>Note: </b> FULL JOIN can potentially return very large result-sets!\n
+        <b>FULL JOIN Example</b>\n
+        The following SQL statement selects all customers, and all orders:\n
+
+        SELECT Customers.CustomerName, Orders.OrderID\n
+        FROM Customers\n
+        FULL OUTER JOIN Orders ON Customers.CustomerID=Orders.CustomerID\n
+        ORDER BY Customers.CustomerName;\n\n
+
+        <b>Note: </b>The <b>FULL JOIN </b>keyword returns all matching records from both tables whether the other table matches or not. So, if there are rows in "\"Customers"\" that do not have matches in "\"Orders"\", or if there are rows in "\"Orders"\" that do not have matches in "\"Customers"\", those rows will be listed as well.\n
+
+
+
+
+
+
+    </string>
+
+
+<!--    practice problem-->
+
+    <string name="practice">Practice Problem</string>
+    <string name="practice_problem"> We can test our skills now. In this chapter has some practice problem. We have gathered a variety of exercises for each Chapter. And we will provide all the possible answer in later.But first you have to try hard\n
+
+    </string>
+
+
+
+    <string name="practice_html">HTML Problem</string>
+    <string name="problem_html">
+        1. Do practice with HTML heading, paragraph tags\n
+        2. Display your four most favorite pictures in your display using <b>img</b> keyword\n
+        3. Make a registration form.\n
+        4. Make a table to collect student information.\n
+        5. Make a table for your web engineering course teacher that can collect all student data including student ID, CGPA, address/n
+
+
+    </string>
+
+    <string name="practice_css">CSS Problem</string>
+    <string name="problems_css">
+
+        1. Connect your CSS file with the HTML file
+        2. Set color:"\"red"\" for every important keyword.\n
+        3. Find total height and width of a box using box model\n
+        4. Create a complex HTML table and use border and text color\n
+        5. Create a simple HTML Form covering major form elements\n
+        6. Make a navigation bar using flex model\n
+        7. Make your own CV and add your social media link in your cv/n
+
+    </string>
+
+    <string name="practice_javascript">Javascript Problem</string>
+    <string name="problems_javascript">
+
+
+        1. Write a javascript program to print your university information\n
+        2. Write down the type of javascript variables\n
+        3. Write a JavaScript exercise to create a variable using a user-defined name.
+        4. Write a javascript program to find the summation of two number\n
+        5. Find all arithmetic operation in javascript\n
+        6. Write a JavaScript program to get the difference between a given number and 18, if the number is greater than 13 return double the absolute difference.\n
+        7. Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.\n
+        8. Write a JavaScript program to check from two given integers, whether one is positive and another one is negative.\n
+        9. Write a JavaScript program to check whether a string starts with "'Java'" and false otherwise.\n
+        10. Write a JavaScript program to find the largest of three given integers.\n
+        11. Write a JavaScript program to check the total marks of a student in various examinations.\n
+        12. Write a JavaScript program to count of vowels and consonants  in a given string.\n
+
+    </string>
+    <string name="practice_c">C Programming</string>
+    <string name="problems_c">
+
+        1. Write a c program to print add two integer value\n
+        2. Write a c program to  all arithmetic operation\n
+        3. Write a C program to print your name, date of birth. and mobile number.\n
+        4. Write a C program to compute the perimeter and area of a circle with a given radius.\n
+        5. Write a C program to display multiple variables.\n
+        6. Write a C program that accepts two integers from the user and calculate the sum of the two integers.\n
+        7. Write a C program that accepts three integers and find the maximum of three.\n
+        8. Write a C program to calculate the distance between the two points.\n
+        9. Write a C program that reads two integers and checks whether they are multiplied or not
+
+
+    </string>
+
+    <string name="practice_java">JAVA</string>
+    <string name="problems_java">
+        1. Write a Java program to print "'Hello'" on screen and then print your name on a separate line\n
+        2. Write a Java program to print the sum of two numbers.\n
+        3. Write a Java program to divide two numbers and print on the screen. \n
+        4. Write a Java program that takes two numbers as input and display the product of two numbers.\n
+        5. Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.\n
+        6. Write a Java program that takes a number as input and prints its multiplication table upto 10\n
+        7. Write a Java program to print the area and perimeter of a circle.\n
+        8. Write a Java program that takes three numbers as input to calculate and print the average of the numbers\n
+
+    </string>
+
+
+    <string name="practice_python">Python</string>
+    <string name="problems_python">
+        1. Write a Python program which accepts the radius of a circle from the user and compute the area.\n
+        2. Write a Python program to get the volume of a sphere with radius 6.\n
+        3. Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.\n
+        4. Write a Python program to test whether a passed letter is a vowel or not.\n
+        5. Write a Python program to compute the greatest common divisor (GCD) of two positive integers.\n
+        6. Write a Python program to get the least common multiple (LCM) of two positive integers.\n
+        7. Write a Python program to print without newline or space\n
+    </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

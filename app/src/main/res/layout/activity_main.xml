@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/sky"
+
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+<!--    android:background="@color/teal_700"-->
+
+
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/teal_200"
+        android:dividerHeight="2dp"
+        android:listSelector="#DD0BB1">
+
+    </ListView>
+
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="@string/topics_text"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textStyle="bold|italic"-->
+<!--        />-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:padding="5dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/htmlButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/html_btn"-->
+<!--            android:textSize="40sp"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/cssButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/css_btn"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:textSize="40sp"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:padding="5dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/javascriptButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/js_btn"-->
+<!--            android:textSize="25sp"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/cpButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/c_btn"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:textSize="40sp"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:padding="5dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/javaButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/java_btn"-->
+<!--            android:textSize="40sp"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/pythonButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/python_btn"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:textSize="28sp"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:padding="5dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/sqlButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/sql_btn"-->
+<!--            android:textSize="40sp"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/practiceButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/practice_btn"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:textSize="20sp"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+
+
+
+
+</LinearLayout>

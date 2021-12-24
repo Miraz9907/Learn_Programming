@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnprogramming">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/programming"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/programming"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnProgramming">
+        <activity
+            android:name=".PracticeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SqlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PythonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JavaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CprogrammingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JavascriptActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CssActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HtmlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
